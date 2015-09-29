@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-09-29T01:26:52 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-09-29T01:26:52", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "b45a015d0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-09-29T01:26:52 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-09-29T01:26:52", 
+    "_body": "00", 
+    "_head": "3332", 
+    "rate": 1.25, 
+    "_date": "b45a015d0f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-09-29T00:41:25 head[2], body[0] op[0x16]", 
     "timestamp": "2015-09-29T00:41:25", 
     "_body": "", 
@@ -84,21 +103,5 @@
     "_body": "", 
     "_head": "1a01", 
     "_date": "8f42091c0f"
-  }, 
-  {
-    "_type": "ClearAlarm", 
-    "_description": "ClearAlarm 2015-09-28T09:01:54 head[2], body[0] op[0x0c]", 
-    "timestamp": "2015-09-28T09:01:54", 
-    "_body": "", 
-    "_head": "0c37", 
-    "_date": "b641091c0f"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2015-09-28T09:01:54 head[2], body[0] op[0x1a]", 
-    "timestamp": "2015-09-28T09:01:54", 
-    "_body": "", 
-    "_head": "1a00", 
-    "_date": "b641091c0f"
   }
 ]
