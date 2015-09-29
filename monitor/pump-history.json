@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-09-29T00:41:25 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-09-29T00:41:25", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "9969005d0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-09-29T00:41:25 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-09-29T00:41:25", 
+    "_body": "00", 
+    "_head": "3328", 
+    "rate": 1.0, 
+    "_date": "9969005d0f"
+  }, 
+  {
     "_type": "Model522ResultTotals", 
     "_description": "Model522ResultTotals 2015-09-29T00:00:00 head[1], body[41] op[0x6d]", 
     "timestamp": "2015-09-29T00:00:00", 
@@ -81,21 +100,5 @@
     "_body": "", 
     "_head": "1a00", 
     "_date": "b641091c0f"
-  }, 
-  {
-    "_type": "NoDelivery", 
-    "_description": "NoDelivery 2015-09-28T09:00:29 head[4], body[0] op[0x06]", 
-    "timestamp": "2015-09-28T09:00:29", 
-    "_body": "", 
-    "_head": "06370794", 
-    "_date": "9d4049bc0f"
-  }, 
-  {
-    "_type": "Battery", 
-    "_description": "Battery 2015-09-28T09:01:45 head[2], body[0] op[0x1a]", 
-    "timestamp": "2015-09-28T09:01:45", 
-    "_body": "", 
-    "_head": "1a01", 
-    "_date": "ad41091c0f"
   }
 ]
