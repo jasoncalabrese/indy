@@ -1,5 +1,32 @@
 [
   {
+    "_type": "ChangeAlarmNotifyMode", 
+    "_description": "ChangeAlarmNotifyMode 2015-10-03T15:04:41 head[2], body[0] op[0x63]", 
+    "timestamp": "2015-10-03T15:04:41", 
+    "_body": "", 
+    "_head": "6304", 
+    "_date": "a9840f030f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-10-03T15:04:08 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-10-03T15:04:08", 
+    "_body": "", 
+    "_head": "1600", 
+    "duration (min)": 0, 
+    "_date": "88840f430f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-10-03T15:04:08 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-10-03T15:04:08", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "88840f430f"
+  }, 
+  {
     "_type": "SetAutoOff", 
     "_description": "SetAutoOff 2015-10-03T15:03:22 head[2], body[0] op[0x1b]", 
     "timestamp": "2015-10-03T15:03:22", 
@@ -1113,34 +1140,5 @@
     "_head": "1601", 
     "duration (min)": 30, 
     "_date": "8ba214420f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-10-02T20:34:11 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-10-02T20:34:11", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "8ba214420f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2015-10-02T20:29:16 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-10-02T20:29:16", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "909d14420f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-10-02T20:29:16 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-10-02T20:29:16", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "909d14420f"
   }
 ]
