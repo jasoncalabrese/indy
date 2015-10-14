@@ -1,12 +1,12 @@
 {
-  "bg": 124, 
+  "bg": 105, 
   "temp": "absolute", 
-  "snoozeBG": 80, 
+  "snoozeBG": 101, 
   "recieved": true, 
   "rate": 0.0, 
-  "reason": "Eventual BG 80<100, no temp, setting -0.167U/hr", 
-  "eventualBG": 80, 
-  "timestamp": "2015-10-14T17:51:02.654870", 
-  "duration": 30, 
-  "tick": -12
+  "reason": "Eventual BG 101>100 but Delta -4 < BGI -2.59 / 2; cancel", 
+  "eventualBG": 101, 
+  "timestamp": "2015-10-14T18:05:53.676468", 
+  "duration": 0, 
+  "tick": -4
 }
