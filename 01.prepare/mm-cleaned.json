@@ -1,5 +1,29 @@
 [
   {
+    "_type": "Battery", 
+    "_description": "Battery 2015-10-14T22:36:21 head[2], body[0] op[0x1a]", 
+    "timestamp": "2015-10-14T22:36:21", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "95a4160e0f"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2015-10-14T22:35:29 head[2], body[0] op[0x1a]", 
+    "timestamp": "2015-10-14T22:35:29", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "9da3160e0f"
+  }, 
+  {
+    "_type": "LowBattery", 
+    "_description": "LowBattery 2015-10-14T20:01:00 head[2], body[0] op[0x19]", 
+    "timestamp": "2015-10-14T20:01:00", 
+    "_body": "", 
+    "_head": "1900", 
+    "_date": "8081140e0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-10-14T14:28:50 head[2], body[0] op[0x16]", 
     "timestamp": "2015-10-14T14:28:50", 
@@ -1116,33 +1140,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "b583144d0f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2015-10-13T19:58:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-10-13T19:58:50", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "b2ba134d0f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-10-13T19:58:50 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-10-13T19:58:50", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "b2ba134d0f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2015-10-13T19:53:49 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-10-13T19:53:49", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "b1b5134d0f"
   }
 ]
