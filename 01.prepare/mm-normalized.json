@@ -1,67 +1,59 @@
 [
   {
     "amount": 1.0, 
-    "start_at": -15, 
+    "start_at": -20, 
     "description": "TempBasal: 1.5U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": 15
+    "end_at": 10
   }, 
   {
     "amount": 1.0, 
-    "start_at": -25, 
+    "start_at": -30, 
     "description": "TempBasal: 1.5U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -20
+    "end_at": -25
   }, 
   {
     "amount": 1.0, 
-    "start_at": -59, 
+    "start_at": -64, 
     "description": "TempBasal: 1.5U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -29
+    "end_at": -34
   }, 
   {
     "amount": 0.925, 
-    "start_at": -95, 
+    "start_at": -100, 
     "description": "TempBasal: 1.425U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -65
+    "end_at": -70
   }, 
   {
     "amount": 0.35, 
-    "start_at": -125, 
+    "start_at": -130, 
     "description": "TempBasal: 0.85U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -120
+    "end_at": -125
   }, 
   {
     "amount": 1.0, 
-    "start_at": -150, 
+    "start_at": -155, 
     "description": "TempBasal: 1.5U/hour over 20min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -130
+    "end_at": -135
   }, 
   {
     "amount": 0.42500000000000004, 
-    "start_at": -160, 
+    "start_at": -165, 
     "description": "TempBasal: 0.925U/hour over 9min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -151
-  }, 
-  {
-    "amount": -0.5, 
-    "start_at": -170, 
-    "description": "TempBasal: 0.0U/hour over 5min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -165
+    "end_at": -156
   }, 
   {
     "amount": -0.5, 
@@ -74,18 +66,18 @@
   {
     "amount": -0.5, 
     "start_at": -180, 
-    "description": "TempBasal: 0.0U/hour over 4min", 
+    "description": "TempBasal: 0.0U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -176
+    "end_at": -175
   }, 
   {
     "amount": -0.5, 
     "start_at": -185, 
-    "description": "TempBasal: 0.0U/hour over 5min", 
+    "description": "TempBasal: 0.0U/hour over 4min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -180
+    "end_at": -181
   }, 
   {
     "amount": -0.5, 
@@ -96,60 +88,60 @@
     "end_at": -185
   }, 
   {
-    "amount": -0.3, 
+    "amount": -0.5, 
     "start_at": -195, 
-    "description": "TempBasal: 0.2U/hour over 4min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -191
-  }, 
-  {
-    "amount": 0.925, 
-    "start_at": -225, 
-    "description": "TempBasal: 1.425U/hour over 15min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -210
-  }, 
-  {
-    "amount": 1.0, 
-    "start_at": -260, 
-    "description": "TempBasal: 1.5U/hour over 30min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -230
-  }, 
-  {
-    "amount": 0.8, 
-    "start_at": -265, 
-    "description": "TempBasal: 1.3U/hour over 5min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -260
-  }, 
-  {
-    "amount": -0.5, 
-    "start_at": -280, 
-    "description": "TempBasal: 0.0U/hour over 9min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -271
-  }, 
-  {
-    "amount": -0.5, 
-    "start_at": -285, 
     "description": "TempBasal: 0.0U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -280
+    "end_at": -190
+  }, 
+  {
+    "amount": -0.3, 
+    "start_at": -200, 
+    "description": "TempBasal: 0.2U/hour over 4min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -196
+  }, 
+  {
+    "amount": 0.925, 
+    "start_at": -230, 
+    "description": "TempBasal: 1.425U/hour over 15min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -215
+  }, 
+  {
+    "amount": 1.0, 
+    "start_at": -265, 
+    "description": "TempBasal: 1.5U/hour over 30min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -235
+  }, 
+  {
+    "amount": 0.8, 
+    "start_at": -270, 
+    "description": "TempBasal: 1.3U/hour over 5min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -265
+  }, 
+  {
+    "amount": -0.5, 
+    "start_at": -284, 
+    "description": "TempBasal: 0.0U/hour over 9min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -275
   }, 
   {
     "amount": -0.5, 
     "start_at": -290, 
-    "description": "TempBasal: 0.0U/hour over 4min", 
+    "description": "TempBasal: 0.0U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -286
+    "end_at": -285
   }, 
   {
     "amount": -0.5, 
@@ -162,10 +154,10 @@
   {
     "amount": -0.5, 
     "start_at": -300, 
-    "description": "TempBasal: 0.0U/hour over 5min", 
+    "description": "TempBasal: 0.0U/hour over 4min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -295
+    "end_at": -296
   }, 
   {
     "amount": -0.5, 
@@ -176,140 +168,140 @@
     "end_at": -300
   }, 
   {
-    "amount": -0.25, 
-    "start_at": -315, 
-    "description": "TempBasal: 0.25U/hour over 10min", 
+    "amount": -0.5, 
+    "start_at": -310, 
+    "description": "TempBasal: 0.0U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": -305
   }, 
   {
+    "amount": -0.25, 
+    "start_at": -320, 
+    "description": "TempBasal: 0.25U/hour over 10min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -310
+  }, 
+  {
     "amount": 0.8, 
-    "start_at": -334, 
+    "start_at": -339, 
     "description": "TempBasal: 1.3U/hour over 9min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -325
+    "end_at": -330
   }, 
   {
     "amount": 1.0, 
-    "start_at": -3430, 
+    "start_at": -3435, 
     "description": "TempBasal: 1.5U/hour over 9min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3421
+    "end_at": -3426
   }, 
   {
     "amount": 1.0, 
-    "start_at": -3439, 
+    "start_at": -3444, 
     "description": "TempBasal: 1.5U/hour over 4min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -3435
-  }, 
-  {
-    "amount": 0.55, 
-    "start_at": -3445, 
-    "description": "TempBasal: 1.05U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": -3440
   }, 
   {
+    "amount": 0.55, 
+    "start_at": -3449, 
+    "description": "TempBasal: 1.05U/hour over 5min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -3444
+  }, 
+  {
     "amount": 0.8, 
-    "start_at": -3480, 
+    "start_at": -3485, 
     "description": "TempBasal: 1.3U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3450
+    "end_at": -3455
   }, 
   {
     "amount": 0.35, 
-    "start_at": -3504, 
+    "start_at": -3509, 
     "description": "TempBasal: 0.85U/hour over 24min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3480
+    "end_at": -3485
   }, 
   {
     "amount": 0.55, 
-    "start_at": -3530, 
+    "start_at": -3535, 
     "description": "TempBasal: 1.05U/hour over 15min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3515
+    "end_at": -3520
   }, 
   {
     "amount": 0.42500000000000004, 
-    "start_at": -3540, 
+    "start_at": -3544, 
     "description": "TempBasal: 0.925U/hour over 9min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3531
+    "end_at": -3535
   }, 
   {
     "amount": 0.35, 
-    "start_at": -3545, 
+    "start_at": -3550, 
     "description": "TempBasal: 0.85U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3540
+    "end_at": -3545
   }, 
   {
     "amount": 0.35, 
-    "start_at": -3565, 
+    "start_at": -3570, 
     "description": "TempBasal: 0.85U/hour over 4min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3561
+    "end_at": -3566
   }, 
   {
     "amount": -0.5, 
-    "start_at": -3580, 
+    "start_at": -3585, 
     "description": "TempBasal: 0.0U/hour over 15min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3565
+    "end_at": -3570
   }, 
   {
     "amount": -0.5, 
-    "start_at": -3584, 
+    "start_at": -3589, 
     "description": "TempBasal: 0.0U/hour over 4min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": -3580
-  }, 
-  {
-    "amount": -0.45, 
-    "start_at": -3590, 
-    "description": "TempBasal: 0.05U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": -3585
   }, 
   {
-    "amount": -0.3, 
-    "start_at": -3594, 
-    "description": "TempBasal: 0.2U/hour over 4min", 
+    "amount": -0.45, 
+    "start_at": -3595, 
+    "description": "TempBasal: 0.05U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": -3590
   }, 
   {
-    "amount": -0.5, 
-    "start_at": -3639, 
-    "description": "TempBasal: 0.0U/hour over 14min", 
+    "amount": -0.3, 
+    "start_at": -3599, 
+    "description": "TempBasal: 0.2U/hour over 4min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3625
+    "end_at": -3595
   }, 
   {
     "amount": -0.5, 
-    "start_at": -3645, 
-    "description": "TempBasal: 0.0U/hour over 5min", 
+    "start_at": -3644, 
+    "description": "TempBasal: 0.0U/hour over 14min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3640
+    "end_at": -3630
   }, 
   {
     "amount": -0.5, 
@@ -320,19 +312,27 @@
     "end_at": -3645
   }, 
   {
-    "amount": 1.0, 
-    "start_at": -3670, 
-    "description": "TempBasal: 1.5U/hour over 10min", 
+    "amount": -0.5, 
+    "start_at": -3655, 
+    "description": "TempBasal: 0.0U/hour over 5min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3660
+    "end_at": -3650
   }, 
   {
     "amount": 1.0, 
-    "start_at": -3715, 
+    "start_at": -3675, 
+    "description": "TempBasal: 1.5U/hour over 10min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": -3665
+  }, 
+  {
+    "amount": 1.0, 
+    "start_at": -3719, 
     "description": "TempBasal: 1.5U/hour over 24min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": -3691
+    "end_at": -3695
   }
 ]
