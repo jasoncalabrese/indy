@@ -1,11 +1,30 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-10-16T20:23:49 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-10-16T20:23:49", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "b19714500f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-10-16T20:23:49 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-10-16T20:23:49", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b19714500f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-10-16T20:18:48 head[2], body[0] op[0x16]", 
     "timestamp": "2015-10-16T20:18:48", 
     "_body": "", 
     "_head": "1601", 
-    "duration (min)": 30, 
+    "duration (min)": 5, 
     "_date": "b09214500f"
   }, 
   {
@@ -1118,21 +1137,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "afa1064e0f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-10-14T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2015-10-14T00:00:00", 
-    "_body": "050c00e8000000000248024864000000000000000000000000000000000000000000000c00e8000000", 
-    "_head": "6d", 
-    "_date": "ad0f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-10-14T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2015-10-14T00:00:00", 
-    "_body": "", 
-    "_head": "0700000248", 
-    "_date": "ad0f"
   }
 ]
