@@ -1,5 +1,40 @@
 [
   {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-11-09T00:00:00 head[1], body[41] op[0x6d]", 
+    "timestamp": "2015-11-09T00:00:00", 
+    "_body": "050c00e800000000020001f862000802000000080200000000000000086402000000020c00e8000000", 
+    "_head": "6d", 
+    "_date": "a88f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-11-09T00:00:00 head[5], body[0] op[0x07]", 
+    "timestamp": "2015-11-09T00:00:00", 
+    "_body": "", 
+    "_head": "0700000200", 
+    "_date": "a88f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-11-08T23:55:53 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-11-08T23:55:53", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "b5f717480f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-11-08T23:55:53 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-11-08T23:55:53", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b5f717480f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-11-08T23:40:56 head[2], body[0] op[0x16]", 
@@ -1112,43 +1147,5 @@
     "_head": "3322", 
     "rate": 0.85, 
     "_date": "86c60d480f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 0, 
-    "_description": "TempBasalDuration 2015-11-08T13:01:31 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-11-08T13:01:31", 
-    "_body": "", 
-    "_head": "1600", 
-    "_date": "9fc10d480f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-11-08T13:01:31 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-11-08T13:01:31", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "9fc10d480f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2015-11-08T12:41:03 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-11-08T12:41:03", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "83e90c480f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-11-08T12:41:03 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-11-08T12:41:03", 
-    "_body": "00", 
-    "_head": "3328", 
-    "rate": 1.0, 
-    "_date": "83e90c480f"
   }
 ]
