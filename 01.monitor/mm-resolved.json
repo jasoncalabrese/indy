@@ -1,5 +1,13 @@
 [
   {
+    "amount": 0.05, 
+    "start_at": "2015-11-10T00:00:53", 
+    "description": "TempBasal: 0.05U/hour over 30min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": "2015-11-10T00:30:53"
+  }, 
+  {
     "amount": 1.1, 
     "start_at": "2015-11-09T23:40:53", 
     "description": "TempBasal: 1.1U/hour over 9min", 
@@ -326,13 +334,5 @@
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": "2015-11-09T09:10:53"
-  }, 
-  {
-    "amount": 0.2, 
-    "start_at": "2015-11-09T08:55:54", 
-    "description": "TempBasal: 0.2U/hour over 4min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": "2015-11-09T08:59:54"
   }
 ]
