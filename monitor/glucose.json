@@ -1,5 +1,28 @@
 [
   {
+    "slope": 691.9127801844501, 
+    "scale": 0.9, 
+    "dateString": "Sat Nov 14 14:47:54 PST 2015", 
+    "date": 1447541274000, 
+    "intercept": 39991.740453729, 
+    "device": "dexcom", 
+    "_id": "5647ba4c07f60885b343d846", 
+    "type": "cal"
+  }, 
+  {
+    "direction": "Flat", 
+    "noise": 1, 
+    "dateString": "Sat Nov 14 14:47:54 PST 2015", 
+    "sgv": 136, 
+    "date": 1447541274000, 
+    "unfiltered": 148160, 
+    "rssi": 185, 
+    "device": "dexcom", 
+    "filtered": 148800, 
+    "_id": "5647ba4c07f60885b343d845", 
+    "type": "sgv"
+  }, 
+  {
     "direction": "Flat", 
     "noise": 1, 
     "dateString": "Sat Nov 14 14:42:51 PST 2015", 
@@ -93,32 +116,6 @@
     "device": "dexcom", 
     "filtered": 136864, 
     "_id": "5647b34307f60885b343d83d", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "SingleUp", 
-    "noise": 1, 
-    "dateString": "Sat Nov 14 14:12:51 PST 2015", 
-    "sgv": 145, 
-    "date": 1447539171000, 
-    "unfiltered": 142336, 
-    "rssi": 177, 
-    "device": "dexcom", 
-    "filtered": 129312, 
-    "_id": "5647b21507f60885b343d83c", 
-    "type": "sgv"
-  }, 
-  {
-    "direction": "FortyFiveUp", 
-    "noise": 1, 
-    "dateString": "Sat Nov 14 14:07:51 PST 2015", 
-    "sgv": 133, 
-    "date": 1447538871000, 
-    "unfiltered": 134080, 
-    "rssi": 181, 
-    "device": "dexcom", 
-    "filtered": 123296, 
-    "_id": "5647b0eb07f60885b343d83b", 
     "type": "sgv"
   }
 ]
