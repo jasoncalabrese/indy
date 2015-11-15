@@ -1,11 +1,27 @@
 [
   {
-    "amount": 0.925, 
-    "start_at": "2015-11-14T21:30:53", 
-    "description": "TempBasal: 0.925U/hour over 30min", 
+    "amount": 0.5, 
+    "start_at": "2015-11-14T21:37:42", 
+    "description": "Normal bolus: 0.5U", 
+    "type": "Bolus", 
+    "unit": "U", 
+    "end_at": "2015-11-14T21:37:42"
+  }, 
+  {
+    "amount": 1.175, 
+    "start_at": "2015-11-14T21:35:54", 
+    "description": "TempBasal: 1.175U/hour over 30min", 
     "type": "TempBasal", 
     "unit": "U/hour", 
-    "end_at": "2015-11-14T22:00:53"
+    "end_at": "2015-11-14T22:05:54"
+  }, 
+  {
+    "amount": 0.925, 
+    "start_at": "2015-11-14T21:30:53", 
+    "description": "TempBasal: 0.925U/hour over 5min", 
+    "type": "TempBasal", 
+    "unit": "U/hour", 
+    "end_at": "2015-11-14T21:35:53"
   }, 
   {
     "amount": 0.675, 
@@ -350,13 +366,5 @@
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": "2015-11-14T06:25:51"
-  }, 
-  {
-    "amount": 0.75, 
-    "start_at": "2015-11-14T05:45:51", 
-    "description": "TempBasal: 0.75U/hour over 5min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": "2015-11-14T05:50:51"
   }
 ]
