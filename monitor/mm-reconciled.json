@@ -1,5 +1,17 @@
 [
   {
+    "programmed": 0.4, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-11-14T16:49:30 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-11-14T16:49:30", 
+    "_body": "", 
+    "_head": "01040400", 
+    "amount": 0.4, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "9ef1500e0f"
+  }, 
+  {
     "_type": "Prime", 
     "_description": "Prime 2015-11-14T16:41:35 head[5], body[0] op[0x03]", 
     "timestamp": "2015-11-14T16:41:35", 
@@ -1473,14 +1485,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "b4c5024e0f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2015-11-14T02:00:50 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-11-14T02:00:50", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 5, 
-    "_date": "b2c0024e0f"
   }
 ]
