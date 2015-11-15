@@ -1,5 +1,13 @@
 [
   {
+    "amount": 0.2, 
+    "start_at": "2015-11-14T22:38:12", 
+    "description": "Normal bolus: 0.2U", 
+    "type": "Bolus", 
+    "unit": "U", 
+    "end_at": "2015-11-14T22:38:12"
+  }, 
+  {
     "amount": 0.5, 
     "start_at": "2015-11-14T21:37:42", 
     "description": "Normal bolus: 0.5U", 
@@ -358,13 +366,5 @@
     "type": "TempBasal", 
     "unit": "U/hour", 
     "end_at": "2015-11-14T06:40:50"
-  }, 
-  {
-    "amount": 0.1, 
-    "start_at": "2015-11-14T06:05:51", 
-    "description": "TempBasal: 0.1U/hour over 20min", 
-    "type": "TempBasal", 
-    "unit": "U/hour", 
-    "end_at": "2015-11-14T06:25:51"
   }
 ]
