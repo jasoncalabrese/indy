@@ -1,128 +1,31 @@
 [
   {
-    "duration": "0",
-    "bolus": {
-      "_type": "Bolus",
-      "_description": "Bolus 2015-11-20T18:54:23 head[4], body[0] op[0x01]",
-      "timestamp": "2015-11-20T18:54:23-08:00",
-      "_body": "",
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus",
-          "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]",
-          "_body": "",
-          "_head": "5c11288b04049504140d14283f14447114",
-          "data": [
-            {
-              "amount": 1,
-              "age": 139
-            },
-            {
-              "amount": 0.1,
-              "age": 149
-            },
-            {
-              "amount": 0.5,
-              "age": 269
-            },
-            {
-              "amount": 1,
-              "age": 319
-            },
-            {
-              "amount": 1.7,
-              "age": 369
-            }
-          ],
-          "_date": ""
-        }
-      ],
-      "programmed": 0.4,
-      "duration": 0,
-      "amount": 0.4,
-      "_head": "01040400",
-      "type": "normal",
-      "_date": "97f652140f"
-    },
-    "timestamp": "2015-11-20T18:54:23-08:00",
-    "created_at": "2015-11-20T18:54:23-08:00",
-    "carbs": "12",
-    "ratio": "18",
-    "bg": "92",
-    "glucose": "92",
-    "glucoseType": "BolusWizard",
-    "wizard": {
-      "unknown_byte[8]": 0,
-      "_type": "BolusWizard",
-      "bg": 92,
-      "_byte[5]": 254,
-      "unknown_byte[10]": 0,
-      "_description": "BolusWizard 2015-11-20T18:54:23 head[2], body[13] op[0x5b]",
-      "timestamp": "2015-11-20T18:54:23-08:00",
-      "_body": "0c50125a6efe06f00004000478",
-      "bg_target_high": 120,
-      "sensitivity": 90,
-      "carb_ratio": 18,
-      "food_estimate": 0.6,
-      "unabsorbed_insulin_total": 0.4,
-      "correction_estimate": -0.2,
-      "carb_input": 12,
-      "_head": "5b5c",
-      "unabsorbed_insulin_count": "??",
-      "_byte[7]": 240,
-      "bolus_estimate": 0.4,
-      "_date": "97f612140f",
-      "bg_target_low": 110
-    },
-    "eventType": "Meal Bolus",
-    "insulin": "0.4",
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 0.4\nDelivered bolus 0.4\nPercent delivered:  100%\nFood estimate 0.6\nCorrection estimate -0.2\nBolus estimate 0.4\nTarget low 110\nTarget high 120\nHypothetical glucose delta -36\nGlucose was: 92",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
-    "enteredBy": "openaps://medtronic/522"
-  },
-  {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2015-11-20T18:54:04 head[2], body[0] op[0x0a]",
-    "timestamp": "2015-11-20T18:54:04-08:00",
-    "_body": "",
-    "_head": "0a5c",
-    "amount": 92,
-    "_date": "84f632140f",
-    "eventType": "<none>",
-    "glucose": 92,
-    "glucoseType": "Finger",
-    "notes": "Pump received finger stick.",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-    "created_at": "2015-11-20T18:54:04-08:00",
-    "enteredBy": "openaps://medtronic/522"
-  },
-  {
     "duration": "30",
     "raw_duration": {
       "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2015-11-20T18:53:49 head[2], body[0] op[0x16]",
-      "timestamp": "2015-11-20T18:53:49-08:00",
+      "_description": "TempBasalDuration 2015-11-20T18:58:46 head[2], body[0] op[0x16]",
+      "timestamp": "2015-11-20T18:58:46-08:00",
       "_body": "",
       "_head": "1601",
       "duration (min)": 30,
-      "_date": "b1f512540f"
+      "_date": "aefa12540f"
     },
-    "timestamp": "2015-11-20T18:53:49-08:00",
+    "timestamp": "2015-11-20T18:58:46-08:00",
     "absolute": "0",
     "rate": 0,
     "raw_rate": {
       "_type": "TempBasal",
       "temp": "absolute",
-      "_description": "TempBasal 2015-11-20T18:53:49 head[2], body[1] op[0x33]",
-      "timestamp": "2015-11-20T18:53:49-08:00",
+      "_description": "TempBasal 2015-11-20T18:58:46 head[2], body[1] op[0x33]",
+      "timestamp": "2015-11-20T18:58:46-08:00",
       "_body": "00",
       "_head": "3300",
       "rate": 0,
-      "_date": "b1f512540f"
+      "_date": "aefa12540f"
     },
     "eventType": "Temp Basal",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2015-11-20T18:53:49-08:00",
+    "created_at": "2015-11-20T18:58:46-08:00",
     "enteredBy": "openaps://medtronic/522"
   }
 ]
