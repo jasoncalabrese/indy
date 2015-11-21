@@ -1,5 +1,34 @@
 [
   {
+    "duration": "0",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2015-11-21T08:56:30 head[2], body[0] op[0x16]",
+      "timestamp": "2015-11-21T08:56:30-08:00",
+      "_body": "",
+      "_head": "1600",
+      "duration (min)": 0,
+      "_date": "9ef808550f"
+    },
+    "timestamp": "2015-11-21T08:56:30-08:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2015-11-21T08:56:30 head[2], body[1] op[0x33]",
+      "timestamp": "2015-11-21T08:56:30-08:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "9ef808550f"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2015-11-21T08:56:30-08:00",
+    "enteredBy": "openaps://medtronic/522"
+  },
+  {
     "duration": "30",
     "raw_duration": {
       "_type": "TempBasalDuration",
@@ -1904,22 +1933,6 @@
     "insulin": "0.4",
     "notes": "Normal bolus with wizard.\nProgrammed bolus 0.4\nDelivered bolus 0.4\nPercent delivered:  100%\nFood estimate 0.6\nCorrection estimate -0.2\nBolus estimate 0.4\nTarget low 110\nTarget high 120\nHypothetical glucose delta -36\nGlucose was: 92",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
-    "enteredBy": "openaps://medtronic/522"
-  },
-  {
-    "_type": "CalBGForPH",
-    "_description": "CalBGForPH 2015-11-20T18:54:04 head[2], body[0] op[0x0a]",
-    "timestamp": "2015-11-20T18:54:04-08:00",
-    "_body": "",
-    "_head": "0a5c",
-    "amount": 92,
-    "_date": "84f632140f",
-    "eventType": "<none>",
-    "glucose": 92,
-    "glucoseType": "Finger",
-    "notes": "Pump received finger stick.",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-    "created_at": "2015-11-20T18:54:04-08:00",
     "enteredBy": "openaps://medtronic/522"
   }
 ]
