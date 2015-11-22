@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "duration (min)": 0, 
+    "_description": "TempBasalDuration 2015-11-22T05:38:12 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-11-22T05:38:12", 
+    "_body": "", 
+    "_head": "1600", 
+    "_date": "8ce605560f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-11-22T05:38:12 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-11-22T05:38:12", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "8ce605560f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-11-22T05:33:14 head[2], body[0] op[0x16]", 
     "timestamp": "2015-11-22T05:33:14", 
@@ -1356,25 +1375,5 @@
     "food_estimate": 0.0, 
     "bg_target_low": 110, 
     "sensitivity": 90
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-11-21T12:35:53 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-11-21T12:35:53", 
-    "_body": "", 
-    "_head": "0a17", 
-    "amount": 279, 
-    "_date": "b5e32c158f"
-  }, 
-  {
-    "_type": "Prime", 
-    "type": "fixed", 
-    "_description": "Prime 2015-11-21T12:29:57 head[5], body[0] op[0x03]", 
-    "timestamp": "2015-11-21T12:29:57", 
-    "_body": "", 
-    "fixed": 1.7, 
-    "_head": "0300110011", 
-    "amount": 1.7, 
-    "_date": "b9dd0c150f"
   }
 ]
