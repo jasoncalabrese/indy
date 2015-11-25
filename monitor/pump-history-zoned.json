@@ -1,5 +1,22 @@
 [
   {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-11-25T00:00:00 head[1], body[41] op[0x6d]", 
+    "timestamp": "2015-11-25T00:00:00-08:00", 
+    "_body": "050068537c02000002f601b23901442b007001442b00bc3a00000000882a0a030000070c00e8000000", 
+    "_head": "6d", 
+    "_date": "b88f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-11-25T00:00:00 head[5], body[0] op[0x07]", 
+    "timestamp": "2015-11-25T00:00:00-08:00", 
+    "_body": "", 
+    "_head": "07000002f6", 
+    "valid_date": "2015-11-24", 
+    "_date": "b88f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-11-24T23:58:29 head[2], body[0] op[0x16]", 
     "timestamp": "2015-11-24T23:58:29-08:00", 
@@ -307,71 +324,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "8ac113580f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-11-24T17:58:42 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-11-24T17:58:42-08:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c110ce90410f304200714181114303914", 
-        "data": [
-          {
-            "amount": 0.3, 
-            "age": 233
-          }, 
-          {
-            "amount": 0.4, 
-            "age": 243
-          }, 
-          {
-            "amount": 0.8, 
-            "age": 263
-          }, 
-          {
-            "amount": 0.6, 
-            "age": 273
-          }, 
-          {
-            "amount": 1.2, 
-            "age": 313
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 1.5, 
-    "duration": 0, 
-    "amount": 1.5, 
-    "_head": "010f0f00", 
-    "type": "normal", 
-    "_date": "aafa51180f"
-  }, 
-  {
-    "unknown_byte[8]": 0, 
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "_byte[5]": 0, 
-    "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2015-11-24T17:58:42 head[2], body[13] op[0x5b]", 
-    "timestamp": "2015-11-24T17:58:42-08:00", 
-    "_body": "1c50125a6e000f000000000f78", 
-    "bg_target_high": 120, 
-    "sensitivity": 90, 
-    "carb_ratio": 18, 
-    "food_estimate": 1.5, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "carb_input": 28, 
-    "_head": "5b00", 
-    "unabsorbed_insulin_count": "??", 
-    "_byte[7]": 0, 
-    "bolus_estimate": 1.5, 
-    "_date": "aafa11180f", 
-    "bg_target_low": 110
   }
 ]
