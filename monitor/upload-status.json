@@ -6,42 +6,42 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-11-27T15:34:48.000Z", 
+      "timestamp": "2015-11-27T15:39:46.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 52, 
-    "clock": "2015-11-27T07:33:51-08:00"
+    "clock": "2015-11-27T07:38:53-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 108, 
+      "bg": 106, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2015-11-27T15:33:25.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 123>110 but Delta +0 < BGI 1.37 / 2; cancel", 
-      "eventualBG": 123, 
-      "duration": 0, 
-      "tick": "+0"
+      "snoozeBG": 102, 
+      "timestamp": "2015-11-27T15:38:29.000Z", 
+      "rate": 0.2, 
+      "reason": "Eventual BG 102<110, no temp, setting 0.211U/hr", 
+      "eventualBG": 102, 
+      "duration": 30, 
+      "tick": -2
     }, 
     "iob": {
-      "timestamp": "2015-11-27T15:33:24.000Z", 
+      "timestamp": "2015-11-27T15:38:28.000Z", 
       "bolusiob": 0, 
-      "iob": -0.12114099624062502, 
-      "activity": -0.0030402967171717175
+      "iob": 0.018915772416249997, 
+      "activity": -0.0015605808080808082
     }, 
     "enacted": {
-      "bg": 108, 
+      "bg": 106, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
+      "snoozeBG": 102, 
       "recieved": true, 
-      "reason": "Eventual BG 123>110 but Delta +0 < BGI 1.37 / 2; cancel", 
-      "rate": 0, 
-      "eventualBG": 123, 
-      "timestamp": "2015-11-27T15:33:44.000Z", 
-      "duration": 0, 
-      "tick": "+0"
+      "reason": "Eventual BG 102<110, no temp, setting 0.211U/hr", 
+      "rate": 0.2, 
+      "eventualBG": 102, 
+      "timestamp": "2015-11-27T15:38:47.000Z", 
+      "duration": 30, 
+      "tick": -2
     }
   }
 }
