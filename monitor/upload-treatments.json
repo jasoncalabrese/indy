@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2015-11-27T10:04:21 head[4], body[0] op[0x01]",
+      "timestamp": "2015-11-27T10:04:21-08:00",
+      "_body": "",
+      "programmed": 0.4,
+      "_head": "01040400",
+      "amount": 0.4,
+      "duration": 0,
+      "type": "normal",
+      "_date": "95c44a1b0f"
+    },
+    "timestamp": "2015-11-27T10:04:21-08:00",
+    "created_at": "2015-11-27T10:04:21-08:00",
+    "eventType": "Correction Bolus",
+    "insulin": "0.4",
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.4\nDelivered bolus 0.4\nPercent delivered:  100%",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
+    "enteredBy": "openaps://medtronic/522"
+  },
+  {
+    "_type": "CalBGForPH",
+    "_description": "CalBGForPH 2015-11-27T10:04:01 head[2], body[0] op[0x0a]",
+    "timestamp": "2015-11-27T10:04:01-08:00",
+    "_body": "",
+    "_head": "0ac3",
+    "amount": 195,
+    "_date": "81c42a1b0f",
+    "eventType": "<none>",
+    "glucose": 195,
+    "glucoseType": "Finger",
+    "notes": "Pump received finger stick.",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+    "created_at": "2015-11-27T10:04:01-08:00",
+    "enteredBy": "openaps://medtronic/522"
+  }
+]
