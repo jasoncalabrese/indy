@@ -3,29 +3,51 @@
     "duration": "30",
     "raw_duration": {
       "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2015-11-28T11:58:24 head[2], body[0] op[0x16]",
-      "timestamp": "2015-11-28T11:58:24-08:00",
+      "_description": "TempBasalDuration 2015-11-28T12:03:15 head[2], body[0] op[0x16]",
+      "timestamp": "2015-11-28T12:03:15-08:00",
       "_body": "",
       "_head": "1601",
       "duration (min)": 30,
-      "_date": "98fa0b5c0f"
+      "_date": "8fc30c5c0f"
     },
-    "timestamp": "2015-11-28T11:58:24-08:00",
-    "absolute": "1.5",
-    "rate": 1.5,
+    "timestamp": "2015-11-28T12:03:15-08:00",
+    "absolute": "1.6",
+    "rate": 1.6,
     "raw_rate": {
       "_type": "TempBasal",
       "temp": "absolute",
-      "_description": "TempBasal 2015-11-28T11:58:24 head[2], body[1] op[0x33]",
-      "timestamp": "2015-11-28T11:58:24-08:00",
+      "_description": "TempBasal 2015-11-28T12:03:15 head[2], body[1] op[0x33]",
+      "timestamp": "2015-11-28T12:03:15-08:00",
       "_body": "00",
-      "_head": "333c",
-      "rate": 1.5,
-      "_date": "98fa0b5c0f"
+      "_head": "3340",
+      "rate": 1.6,
+      "_date": "8fc30c5c0f"
     },
     "eventType": "Temp Basal",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2015-11-28T11:58:24-08:00",
+    "created_at": "2015-11-28T12:03:15-08:00",
+    "enteredBy": "openaps://medtronic/522"
+  },
+  {
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2015-11-28T11:59:31 head[4], body[0] op[0x01]",
+      "timestamp": "2015-11-28T11:59:31-08:00",
+      "_body": "",
+      "programmed": 0.4,
+      "_head": "01040400",
+      "amount": 0.4,
+      "duration": 0,
+      "type": "normal",
+      "_date": "9ffb4b1c0f"
+    },
+    "timestamp": "2015-11-28T11:59:31-08:00",
+    "created_at": "2015-11-28T11:59:31-08:00",
+    "eventType": "Correction Bolus",
+    "insulin": "0.4",
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.4\nDelivered bolus 0.4\nPercent delivered:  100%",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
     "enteredBy": "openaps://medtronic/522"
   }
 ]
