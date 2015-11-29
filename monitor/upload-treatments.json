@@ -1,31 +1,56 @@
 [
   {
-    "duration": "30",
-    "raw_duration": {
-      "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2015-11-28T16:28:12 head[2], body[0] op[0x16]",
-      "timestamp": "2015-11-28T16:28:12-08:00",
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2015-11-28T16:46:27 head[4], body[0] op[0x01]",
+      "timestamp": "2015-11-28T16:46:27-08:00",
       "_body": "",
-      "_head": "1601",
-      "duration (min)": 30,
-      "_date": "8cdc105c0f"
+      "programmed": 0.5,
+      "_head": "01050500",
+      "amount": 0.5,
+      "duration": 0,
+      "type": "normal",
+      "_date": "9bee501c0f"
     },
-    "timestamp": "2015-11-28T16:28:12-08:00",
-    "absolute": "1.05",
-    "rate": 1.05,
-    "raw_rate": {
-      "_type": "TempBasal",
-      "temp": "absolute",
-      "_description": "TempBasal 2015-11-28T16:28:12 head[2], body[1] op[0x33]",
-      "timestamp": "2015-11-28T16:28:12-08:00",
-      "_body": "00",
-      "_head": "332a",
-      "rate": 1.05,
-      "_date": "8cdc105c0f"
-    },
-    "eventType": "Temp Basal",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2015-11-28T16:28:12-08:00",
+    "timestamp": "2015-11-28T16:46:27-08:00",
+    "created_at": "2015-11-28T16:46:27-08:00",
+    "eventType": "Correction Bolus",
+    "insulin": "0.5",
+    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.5\nDelivered bolus 0.5\nPercent delivered:  100%",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
     "enteredBy": "openaps://medtronic/522"
+  },
+  {
+    "_type": "Prime",
+    "_description": "Prime 2015-11-28T16:44:18 head[5], body[0] op[0x03]",
+    "timestamp": "2015-11-28T16:44:18-08:00",
+    "_body": "",
+    "_head": "03000d000d",
+    "amount": 1.3,
+    "fixed": 1.3,
+    "type": "fixed",
+    "_date": "92ec101c0f",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+    "created_at": "2015-11-28T16:44:18-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "Prime 522 "
+  },
+  {
+    "_type": "Prime",
+    "_description": "Prime 2015-11-28T16:31:18 head[5], body[0] op[0x03]",
+    "timestamp": "2015-11-28T16:31:18-08:00",
+    "_body": "",
+    "_head": "0300070007",
+    "amount": 0.7,
+    "fixed": 0.7,
+    "type": "fixed",
+    "_date": "92df101c0f",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+    "created_at": "2015-11-28T16:31:18-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "Prime 522 "
   }
 ]
