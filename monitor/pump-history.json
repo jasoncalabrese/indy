@@ -1,5 +1,86 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 120, 
+    "correction_estimate": 0.0, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-28T17:28:35 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-28T17:28:35", 
+    "_body": "2350125a6e0013000000001378", 
+    "carb_input": 35, 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "_byte[5]": 0, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "a3dc111c0f", 
+    "bolus_estimate": 1.9, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.5, 
+            "age": 43
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 73
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 93
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 203
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 333
+          }, 
+          {
+            "amount": 0.2, 
+            "age": 373
+          }, 
+          {
+            "amount": 1.7, 
+            "age": 453
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c17142b041449040c5d0450cb04104d1408751444c514", 
+        "_date": ""
+      }
+    ], 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 18, 
+    "food_estimate": 1.9, 
+    "bg_target_low": 110, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-11-28T17:28:12 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-11-28T17:28:12", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "8cdc115c0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-11-28T17:28:12 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-11-28T17:28:12", 
+    "_body": "00", 
+    "_head": "3304", 
+    "rate": 0.1, 
+    "_date": "8cdc115c0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-11-28T17:25:10 head[2], body[0] op[0x16]", 
