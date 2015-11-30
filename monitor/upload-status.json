@@ -6,40 +6,42 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-11-30T12:59:37.000Z", 
+      "timestamp": "2015-11-30T13:04:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 57.6, 
-    "clock": "2015-11-30T04:58:50-08:00"
+    "reservoir": 57.5, 
+    "clock": "2015-11-30T05:03:49-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 214, 
+      "bg": 216, 
       "temp": "absolute", 
-      "snoozeBG": 186, 
-      "timestamp": "2015-11-30T12:58:31.000Z", 
-      "reason": "117 is in range. No temp required", 
-      "eventualBG": 117, 
+      "snoozeBG": 187, 
+      "timestamp": "2015-11-30T13:03:22.000Z", 
+      "rate": 0.55, 
+      "reason": "Eventual BG 122>120, no temp, setting 0.556U/hr", 
+      "eventualBG": 122, 
+      "duration": 30, 
       "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2015-11-30T12:58:31.000Z", 
-      "bolusiob": 0.51383488512, 
-      "iob": 1.26330351550255, 
-      "activity": 0.0077270584280303
+      "timestamp": "2015-11-30T13:03:21.000Z", 
+      "bolusiob": 0.48239059199999995, 
+      "iob": 1.2322318245444506, 
+      "activity": 0.008022310953282827
     }, 
     "enacted": {
-      "bg": 202, 
+      "bg": 216, 
       "temp": "absolute", 
-      "snoozeBG": 189, 
+      "snoozeBG": 187, 
       "recieved": true, 
-      "reason": "Eventual BG 109<110, but Avg. Delta 7 > BGI -4.88 / 2; cancel", 
-      "rate": 0, 
-      "eventualBG": 109, 
-      "timestamp": "2015-11-30T12:38:56.000Z", 
-      "duration": 0, 
-      "tick": "+4"
+      "reason": "Eventual BG 122>120, no temp, setting 0.556U/hr", 
+      "rate": 0.55, 
+      "eventualBG": 122, 
+      "timestamp": "2015-11-30T13:03:40.000Z", 
+      "duration": 30, 
+      "tick": "+2"
     }
   }
 }
