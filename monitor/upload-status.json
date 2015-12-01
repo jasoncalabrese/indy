@@ -2,32 +2,32 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.41
+      "voltage": 1.4
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-01T04:59:35.000Z", 
+      "timestamp": "2015-12-01T05:04:34.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 43.5, 
-    "clock": "2015-11-30T20:58:50-08:00"
+    "reservoir": 43.4, 
+    "clock": "2015-11-30T21:03:49-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 232, 
+      "bg": 231, 
       "temp": "absolute", 
-      "snoozeBG": 216, 
-      "timestamp": "2015-12-01T04:58:37.000Z", 
-      "reason": "Eventual BG -19<110, bolus snooze: eventual BG range -19-216", 
-      "eventualBG": -19, 
-      "tick": -14
+      "snoozeBG": 191, 
+      "timestamp": "2015-12-01T05:03:37.000Z", 
+      "reason": "Eventual BG -28<110, but Avg. Delta 0.3333333333333333 > BGI -9.58 / 2; no temp to cancel", 
+      "eventualBG": -28, 
+      "tick": -1
     }, 
     "iob": {
-      "timestamp": "2015-12-01T04:58:37.000Z", 
-      "bolusiob": 1.959660971025, 
-      "iob": 3.725253770658056, 
-      "activity": 0.02200609539772727
+      "timestamp": "2015-12-01T05:03:37.000Z", 
+      "bolusiob": 1.82135382705, 
+      "iob": 3.608634866360228, 
+      "activity": 0.023944182518939396
     }, 
     "enacted": {
       "bg": 246, 
