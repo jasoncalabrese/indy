@@ -1,5 +1,37 @@
 [
   {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 140, 
+    "_byte[5]": 2, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-11-30T19:32:04 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-11-30T19:32:04-08:00", 
+    "_body": "2e50105a6e021c000000001e78", 
+    "bg_target_high": 120, 
+    "sensitivity": 90, 
+    "carb_ratio": 16, 
+    "food_estimate": 2.8, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.2, 
+    "carb_input": 46, 
+    "_head": "5b8c", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 3.0, 
+    "_date": "84e0131e0f", 
+    "bg_target_low": 110
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-11-30T19:31:05 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-11-30T19:31:05-08:00", 
+    "_body": "", 
+    "_head": "0a8c", 
+    "amount": 140, 
+    "_date": "85df331e0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-11-30T19:28:53 head[2], body[0] op[0x16]", 
     "timestamp": "2015-11-30T19:28:53-08:00", 
