@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2015-12-02T06:31:59 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-12-02T06:31:59-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "fb1f06420f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-12-02T06:31:59 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-12-02T06:31:59-08:00", 
+    "_body": "00", 
+    "_head": "332d", 
+    "rate": 1.125, 
+    "_date": "fb1f06420f"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-12-02T05:58:15 head[2], body[0] op[0x16]", 
     "timestamp": "2015-12-02T05:58:15-08:00", 
     "_body": "", 
@@ -321,41 +340,5 @@
     "_head": "332f", 
     "rate": 1.175, 
     "_date": "dd0402420f"
-  }, 
-  {
-    "_type": "Model522ResultTotals", 
-    "_description": "Model522ResultTotals 2015-12-02T00:00:00 head[1], body[41] op[0x6d]", 
-    "timestamp": "2015-12-02T00:00:00-08:00", 
-    "_body": "0500424242010000028801dc4900ac1b002900ac1b004c2c00000000603806010000050c00e8000000", 
-    "_head": "6d", 
-    "_date": "c10f"
-  }, 
-  {
-    "_type": "MResultTotals", 
-    "_description": "MResultTotals 2015-12-02T00:00:00 head[5], body[0] op[0x07]", 
-    "timestamp": "2015-12-02T00:00:00-08:00", 
-    "_body": "", 
-    "_head": "0700000288", 
-    "valid_date": "2015-12-01", 
-    "_date": "c10f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2015-12-01T23:58:28 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-12-01T23:58:28-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "dc3a17410f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-12-01T23:58:28 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-12-01T23:58:28-08:00", 
-    "_body": "00", 
-    "_head": "3346", 
-    "rate": 1.75, 
-    "_date": "dc3a17410f"
   }
 ]
