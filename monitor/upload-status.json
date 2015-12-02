@@ -11,20 +11,20 @@
       "suspended": false
     }, 
     "reservoir": 32.4, 
-    "clock": "2015-12-01T16:53:49-08:00"
+    "clock": "2015-12-01T16:58:49-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 78, 
+      "bg": 87, 
       "temp": "absolute", 
-      "snoozeBG": 89, 
-      "timestamp": "2015-12-02T00:53:38.000Z", 
-      "reason": "BG 78<80, delta 5>0; no high-temp to cancel", 
-      "eventualBG": 89, 
-      "tick": "+5"
+      "snoozeBG": 105, 
+      "timestamp": "2015-12-02T00:58:34.000Z", 
+      "reason": "Eventual BG 105<110, but Delta +9 > BGI 0 / 2; no temp to cancel", 
+      "eventualBG": 105, 
+      "tick": "+9"
     }, 
     "iob": {
-      "timestamp": "2015-12-02T00:53:37.000Z", 
+      "timestamp": "2015-12-02T00:58:34.000Z", 
       "bolusiob": 0, 
       "iob": 0, 
       "activity": 0
