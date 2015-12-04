@@ -15,30 +15,32 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 151, 
+      "bg": 146, 
       "temp": "absolute", 
-      "snoozeBG": 119, 
-      "timestamp": "2015-12-04T06:48:23.000Z", 
-      "reason": "Eventual BG 75<110, bolus snooze: eventual BG range 75-119", 
-      "eventualBG": 75, 
-      "tick": -6
+      "snoozeBG": 109, 
+      "timestamp": "2015-12-04T06:53:23.000Z", 
+      "rate": 0.55, 
+      "reason": "Eventual BG 74<110, no temp, setting 0.55U/hr", 
+      "eventualBG": 74, 
+      "duration": 30, 
+      "tick": -5
     }, 
     "iob": {
-      "timestamp": "2015-12-04T06:48:23.000Z", 
-      "bolusiob": 0.36874906752000003, 
-      "iob": 0.8388617838422222, 
-      "activity": 0.00654432098765432
+      "timestamp": "2015-12-04T06:53:23.000Z", 
+      "bolusiob": 0.28967283552, 
+      "iob": 0.8024335611755555, 
+      "activity": 0.007285061728395061
     }, 
     "enacted": {
-      "bg": 193, 
+      "bg": 146, 
       "temp": "absolute", 
-      "snoozeBG": 228, 
+      "snoozeBG": 109, 
       "recieved": true, 
-      "reason": "Eventual BG 121>110 but Delta -5 < BGI -0.54 / 2; cancel", 
-      "rate": 0, 
-      "eventualBG": 121, 
-      "timestamp": "2015-12-04T06:08:40.000Z", 
-      "duration": 0, 
+      "reason": "Eventual BG 74<110, no temp, setting 0.55U/hr", 
+      "rate": 0.55, 
+      "eventualBG": 74, 
+      "timestamp": "2015-12-04T06:53:41.000Z", 
+      "duration": 30, 
       "tick": -5
     }
   }
