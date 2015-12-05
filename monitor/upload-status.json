@@ -2,46 +2,46 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.53
+      "voltage": 1.52
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-05T01:54:36.000Z", 
+      "timestamp": "2015-12-05T02:10:53.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 101.1, 
-    "clock": "2015-12-04T18:08:23-08:00"
+    "reservoir": 100.5, 
+    "clock": "2015-12-04T18:09:52-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 98, 
+      "bg": 129, 
       "temp": "absolute", 
-      "snoozeBG": 122, 
-      "timestamp": "2015-12-05T01:57:36.000Z", 
-      "rate": 0.7, 
-      "reason": "Eventual BG 122>120, no temp, setting 0.675U/hr", 
-      "eventualBG": 122, 
+      "snoozeBG": 178, 
+      "timestamp": "2015-12-05T02:09:42.000Z", 
+      "rate": 2, 
+      "reason": "Eventual BG 178>120, no temp, setting 2U/hr", 
+      "eventualBG": 178, 
       "duration": 30, 
-      "tick": "+10"
+      "tick": "+17"
     }, 
     "iob": {
-      "timestamp": "2015-12-05T01:57:36.000Z", 
+      "timestamp": "2015-12-05T02:09:41.000Z", 
       "bolusiob": 0, 
-      "iob": 0.038408548523543744, 
-      "activity": 0.007091710317460317
+      "iob": -0.03358512044798405, 
+      "activity": 0.003917001322751321
     }, 
     "enacted": {
-      "bg": 80, 
+      "bg": 129, 
       "temp": "absolute", 
-      "snoozeBG": 88, 
+      "snoozeBG": 178, 
       "recieved": true, 
-      "reason": "Eventual BG 88<110, but Delta +0 > BGI -3.26 / 2; cancel", 
-      "rate": 0, 
-      "eventualBG": 88, 
-      "timestamp": "2015-12-05T01:50:32.000Z", 
-      "duration": 0, 
-      "tick": "+0"
+      "reason": "Eventual BG 178>120, no temp, setting 2U/hr", 
+      "rate": 2, 
+      "eventualBG": 178, 
+      "timestamp": "2015-12-05T02:09:47.000Z", 
+      "duration": 30, 
+      "tick": "+17"
     }
   }
 }
