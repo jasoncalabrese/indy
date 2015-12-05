@@ -1,5 +1,88 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-12-04T23:37:24 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-04T23:37:24-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[23], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c17148ec00498c010a2c020c0c018d4c0104cd00cd8d0", 
+        "data": [
+          {
+            "amount": 0.5, 
+            "age": 142
+          }, 
+          {
+            "amount": 0.1, 
+            "age": 152
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 162
+          }, 
+          {
+            "amount": 0.8, 
+            "age": 192
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 212
+          }, 
+          {
+            "amount": 0.4, 
+            "age": 332
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 472
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.8, 
+    "duration": 0, 
+    "amount": 0.8, 
+    "_head": "01080800", 
+    "type": "normal", 
+    "_date": "d82557040f"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 200, 
+    "_byte[5]": 10, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-04T23:37:24 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-04T23:37:24-08:00", 
+    "_body": "005012506e0a00000002000878", 
+    "bg_target_high": 120, 
+    "sensitivity": 80, 
+    "carb_ratio": 18, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.2, 
+    "correction_estimate": 1.0, 
+    "carb_input": 0, 
+    "_head": "5bc8", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.8, 
+    "_date": "d82517040f", 
+    "bg_target_low": 110
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-04T23:37:06 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-04T23:37:06-08:00", 
+    "_body": "", 
+    "_head": "0ac8", 
+    "amount": 200, 
+    "_date": "c62537040f"
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2015-12-04T23:35:20 head[2], body[0] op[0x0a]", 
     "timestamp": "2015-12-04T23:35:20-08:00", 
