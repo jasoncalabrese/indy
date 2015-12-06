@@ -15,33 +15,33 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 181, 
+      "bg": 193, 
       "temp": "absolute", 
-      "snoozeBG": 164, 
-      "timestamp": "2015-12-06T05:17:23.000Z", 
-      "rate": 1.65, 
-      "reason": "Eventual BG 158>120, temp 0.925<1.625U/hr", 
-      "eventualBG": 158, 
-      "duration": 30, 
-      "tick": "+10"
+      "snoozeBG": 265, 
+      "timestamp": "2015-12-06T05:22:37.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 22<110, but Avg. Delta 18.666666666666668 > BGI -12.68 / 2; cancel", 
+      "eventualBG": 22, 
+      "duration": 0, 
+      "tick": "+12"
     }, 
     "iob": {
-      "timestamp": "2015-12-06T05:17:23.000Z", 
-      "bolusiob": 0.050851733373333395, 
-      "iob": 1.3889314559350001, 
-      "activity": 0.03182857142857142
+      "timestamp": "2015-12-06T05:22:37.000Z", 
+      "bolusiob": 2.022806407751111, 
+      "iob": 3.3118580391999997, 
+      "activity": 0.03170855379188712
     }, 
     "enacted": {
-      "bg": 181, 
+      "bg": 193, 
       "temp": "absolute", 
-      "snoozeBG": 164, 
+      "snoozeBG": 265, 
       "recieved": true, 
-      "reason": "Eventual BG 158>120, temp 0.925<1.625U/hr", 
-      "rate": 1.625, 
-      "eventualBG": 158, 
-      "timestamp": "2015-12-06T05:17:43.000Z", 
-      "duration": 30, 
-      "tick": "+10"
+      "reason": "Eventual BG 22<110, but Avg. Delta 18.666666666666668 > BGI -12.68 / 2; cancel", 
+      "rate": 0, 
+      "eventualBG": 22, 
+      "timestamp": "2015-12-06T05:22:59.000Z", 
+      "duration": 0, 
+      "tick": "+12"
     }
   }
 }
