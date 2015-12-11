@@ -1,5 +1,13 @@
 [
   {
+    "_type": "Rewind", 
+    "_description": "Rewind 2015-12-11T04:21:02 head[2], body[0] op[0x21]", 
+    "timestamp": "2015-12-11T04:21:02-08:00", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "c215040b0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-12-11T04:12:11 head[2], body[0] op[0x16]", 
     "timestamp": "2015-12-11T04:12:11-08:00", 
@@ -635,68 +643,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "c71b164a0f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-12-10T22:19:51 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-12-10T22:19:51-08:00", 
-    "_body": "", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c086cb8c01ce0c0", 
-        "data": [
-          {
-            "amount": 2.7, 
-            "age": 184
-          }, 
-          {
-            "amount": 0.7, 
-            "age": 224
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "programmed": 1.1, 
-    "duration": 0, 
-    "amount": 1.1, 
-    "_head": "010b0b00", 
-    "type": "normal", 
-    "_date": "f313560a0f"
-  }, 
-  {
-    "unknown_byte[8]": 0, 
-    "_type": "BolusWizard", 
-    "bg": 210, 
-    "_byte[5]": 11, 
-    "unknown_byte[10]": 0, 
-    "_description": "BolusWizard 2015-12-10T22:19:51 head[2], body[13] op[0x5b]", 
-    "timestamp": "2015-12-10T22:19:51-08:00", 
-    "_body": "005012506e0b00000000000b78", 
-    "bg_target_high": 120, 
-    "sensitivity": 80, 
-    "carb_ratio": 18, 
-    "food_estimate": 0.0, 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 1.1, 
-    "carb_input": 0, 
-    "_head": "5bd2", 
-    "unabsorbed_insulin_count": "??", 
-    "_byte[7]": 0, 
-    "bolus_estimate": 1.1, 
-    "_date": "f313160a0f", 
-    "bg_target_low": 110
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2015-12-10T22:19:37 head[2], body[0] op[0x0a]", 
-    "timestamp": "2015-12-10T22:19:37-08:00", 
-    "_body": "", 
-    "_head": "0ad2", 
-    "amount": 210, 
-    "_date": "e513360a0f"
   }
 ]
