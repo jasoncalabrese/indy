@@ -6,28 +6,28 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-12T04:50:05.000Z", 
+      "timestamp": "2015-12-12T04:53:49.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 101.3, 
-    "clock": "2015-12-11T20:49:11-08:00"
+    "clock": "2015-12-11T20:52:58-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 143, 
+      "bg": 149, 
       "temp": "absolute", 
-      "snoozeBG": 111, 
-      "timestamp": "2015-12-12T04:50:23.000Z", 
-      "reason": "Eventual BG -10<110bolus snooze: eventual BG range -10-111", 
-      "eventualBG": -10, 
-      "tick": -12
+      "snoozeBG": 123, 
+      "timestamp": "2015-12-12T04:52:18.000Z", 
+      "reason": "Eventual BG 9<110, but Delta +6 > Exp. Delta -5.5; no temp to cancel", 
+      "eventualBG": 9, 
+      "tick": "+6"
     }, 
     "iob": {
-      "timestamp": "2015-12-12T04:50:22.000Z", 
-      "bolusiob": 1.0043726114666667, 
-      "iob": 2.0029328187874444, 
-      "activity": 0.020788620811287472
+      "timestamp": "2015-12-12T04:52:17.000Z", 
+      "bolusiob": 0.9479068934177777, 
+      "iob": 1.964908734693, 
+      "activity": 0.021061407407407404
     }, 
     "enacted": {
       "bg": 175, 
