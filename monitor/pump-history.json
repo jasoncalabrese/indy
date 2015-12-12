@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2015-12-11T23:07:29 head[2], body[0] op[0x16]", 
+    "timestamp": "2015-12-11T23:07:29", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "dd07174b0f"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2015-12-11T23:07:29 head[2], body[1] op[0x33]", 
+    "timestamp": "2015-12-11T23:07:29", 
+    "_body": "00", 
+    "_head": "3304", 
+    "rate": 0.1, 
+    "_date": "dd07174b0f"
+  }, 
+  {
     "_type": "OldBolusWizardChange", 
     "stale": {
       "insulin_sensitivies": [
@@ -1301,24 +1320,5 @@
     "_head": "3346", 
     "rate": 1.75, 
     "_date": "c413114b0f"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2015-12-11T17:07:05 head[2], body[0] op[0x16]", 
-    "timestamp": "2015-12-11T17:07:05", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "c507114b0f"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2015-12-11T17:07:05 head[2], body[1] op[0x33]", 
-    "timestamp": "2015-12-11T17:07:05", 
-    "_body": "00", 
-    "_head": "3320", 
-    "rate": 0.8, 
-    "_date": "c507114b0f"
   }
 ]
