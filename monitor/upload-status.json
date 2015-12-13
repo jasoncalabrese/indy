@@ -15,33 +15,33 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 170, 
+      "bg": 154, 
       "temp": "absolute", 
-      "snoozeBG": 12, 
-      "timestamp": "2015-12-13T00:38:22.000Z", 
+      "snoozeBG": 33, 
+      "timestamp": "2015-12-13T00:44:22.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG -25<110, no temp, setting -2.443U/hr", 
-      "eventualBG": -25, 
+      "reason": "Eventual BG 1<110, no temp, setting -1.843U/hr", 
+      "eventualBG": 1, 
       "duration": 30, 
-      "tick": -10
+      "tick": -16
     }, 
     "iob": {
-      "timestamp": "2015-12-13T00:38:21.000Z", 
-      "bolusiob": 0.3490076422, 
-      "iob": 1.9993521462666668, 
-      "activity": 0.031638641975308614
+      "timestamp": "2015-12-13T00:44:22.000Z", 
+      "bolusiob": 0.3082077382, 
+      "iob": 1.4206841052399999, 
+      "activity": 0.024119153439153433
     }, 
     "enacted": {
-      "bg": 170, 
+      "bg": 154, 
       "temp": "absolute", 
-      "snoozeBG": 12, 
+      "snoozeBG": 33, 
       "recieved": true, 
-      "reason": "Eventual BG -25<110, no temp, setting -2.443U/hr", 
+      "reason": "Eventual BG 1<110, no temp, setting -1.843U/hr", 
       "rate": 0, 
-      "eventualBG": -25, 
-      "timestamp": "2015-12-13T00:38:26.000Z", 
+      "eventualBG": 1, 
+      "timestamp": "2015-12-13T00:44:46.000Z", 
       "duration": 30, 
-      "tick": -10
+      "tick": -16
     }
   }
 }
