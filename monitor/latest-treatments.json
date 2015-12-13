@@ -1,30 +1,61 @@
 {
-  "_id": "566dc975967eee5322c0c7b5",
-  "duration": "30",
-  "raw_duration": {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2015-12-13T11:37:55 head[2], body[0] op[0x16]",
-    "timestamp": "2015-12-13T11:37:55-08:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "f7250b4d0f"
+  "_id": "566dd30c967eee5322c0c7cb",
+  "carbs": "39",
+  "ratio": "16",
+  "bg": "166",
+  "glucose": "166",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "correction_estimate": 0.6,
+    "unknown_byte[10]": 0,
+    "_description": "BolusWizard 2015-12-13T12:18:47 head[2], body[13] op[0x5b]",
+    "bg_target_low": 110,
+    "_body": "275010466e0618000004001a78",
+    "_byte[5]": 6,
+    "_head": "5ba6",
+    "_byte[7]": 0,
+    "bolus_estimate": 2.6,
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c0b105dc00e8fc03a99c0",
+        "data": [
+          {
+            "amount": 0.4,
+            "age": 93
+          },
+          {
+            "amount": 0.35,
+            "age": 143
+          },
+          {
+            "amount": 1.45,
+            "age": 153
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "food_estimate": 2.4,
+    "carb_input": 39,
+    "sensitivity": 70,
+    "_type": "BolusWizard",
+    "bg": 166,
+    "timestamp": "2015-12-13T12:18:47-08:00",
+    "bg_target_high": 120,
+    "unabsorbed_insulin_total": 0.4,
+    "unabsorbed_insulin_count": "??",
+    "_date": "ef120c0d0f",
+    "unknown_byte[8]": 0,
+    "carb_ratio": 16
   },
-  "timestamp": "2015-12-13T11:37:55-08:00",
-  "absolute": "0.9",
-  "rate": 0.9,
-  "raw_rate": {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2015-12-13T11:37:55 head[2], body[1] op[0x33]",
-    "timestamp": "2015-12-13T11:37:55-08:00",
-    "_body": "00",
-    "_head": "3324",
-    "rate": 0.9,
-    "_date": "f7250b4d0f"
-  },
-  "eventType": "Temp Basal",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-  "created_at": "2015-12-13T11:37:55-08:00",
+  "timestamp": "2015-12-13T12:18:47-08:00",
+  "created_at": "2015-12-13T12:18:47-08:00",
+  "eventType": "Carb Correction",
+  "insulin": 0,
+  "notes": "Food estimate 2.4\nCorrection estimate 0.6\nBolus estimate 2.6\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0\nGlucose was: 166",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
   "enteredBy": "openaps://medtronic/522"
 }
