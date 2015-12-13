@@ -6,12 +6,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-13T05:09:49.000Z", 
+      "timestamp": "2015-12-13T05:13:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 68.5, 
-    "clock": "2015-12-12T21:08:58-08:00"
+    "reservoir": 68.4, 
+    "clock": "2015-12-12T21:12:44-08:00"
   }, 
   "openaps": {
     "suggested": {
@@ -32,16 +32,16 @@
       "activity": 0.018454144620811283
     }, 
     "enacted": {
-      "bg": 118, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 93, 
+      "snoozeBG": 84, 
       "recieved": true, 
-      "reason": "Eventual BG 93<110, but Delta +0 > Exp. Delta -6.1; cancel", 
+      "reason": "Eventual BG 84<110, no temp, setting -0.336U/hr", 
       "rate": 0, 
-      "eventualBG": 93, 
-      "timestamp": "2015-12-13T05:08:37.000Z", 
-      "duration": 0, 
-      "tick": "+0"
+      "eventualBG": 84, 
+      "timestamp": "2015-12-13T05:12:23.000Z", 
+      "duration": 30, 
+      "tick": -6
     }
   }
 }
