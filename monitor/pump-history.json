@@ -1,5 +1,76 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-12-13T18:56:40 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-13T18:56:40", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 41
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 121
+          }, 
+          {
+            "amount": 1.2, 
+            "age": 261
+          }, 
+          {
+            "amount": 2.6, 
+            "age": 401
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0e0c29c02c79c03005d06891d0", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.5, 
+    "_head": "01050500", 
+    "amount": 0.5, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "e838520d0f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 176, 
+    "bg_target_high": 120, 
+    "correction_estimate": 0.8, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-13T18:56:40 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-13T18:56:40", 
+    "_body": "005010466e0800000006000278", 
+    "carb_input": 0, 
+    "_head": "5bb0", 
+    "unabsorbed_insulin_total": 0.6, 
+    "_byte[5]": 8, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "e838120d0f", 
+    "bolus_estimate": 0.2, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 16, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "sensitivity": 70
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-13T18:56:26 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-13T18:56:26", 
+    "_body": "", 
+    "_head": "0ab0", 
+    "amount": 176, 
+    "_date": "da38320d0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-12-13T18:27:31 head[2], body[0] op[0x16]", 
