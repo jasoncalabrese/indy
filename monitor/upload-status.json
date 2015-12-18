@@ -2,44 +2,46 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.53
+      "voltage": 1.54
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-18T15:01:47.000Z", 
+      "timestamp": "2015-12-18T23:46:51.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 78.4, 
-    "clock": "2015-12-18T15:42:44-08:00"
+    "reservoir": 73.7, 
+    "clock": "2015-12-18T15:45:55-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 108, 
+      "bg": 77, 
       "temp": "absolute", 
-      "snoozeBG": 111, 
-      "timestamp": "2015-12-18T15:02:21.000Z", 
-      "reason": "Eventual BG 88<110bolus snooze: eventual BG range 88-111", 
-      "eventualBG": 88, 
-      "tick": "+0"
+      "snoozeBG": 68, 
+      "timestamp": "2015-12-18T23:47:20.000Z", 
+      "rate": 0, 
+      "reason": "BG 77<80", 
+      "eventualBG": 68, 
+      "duration": 30, 
+      "tick": -1
     }, 
     "iob": {
-      "timestamp": "2015-12-18T15:02:21.000Z", 
-      "bolusiob": 0.18860306261333337, 
-      "iob": 0.17568532569531997, 
-      "activity": -0.0017797884832451497
+      "timestamp": "2015-12-18T23:47:19.000Z", 
+      "bolusiob": 0, 
+      "iob": 0, 
+      "activity": 0
     }, 
     "enacted": {
-      "bg": 110, 
+      "bg": 77, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
+      "snoozeBG": 68, 
       "recieved": true, 
-      "reason": "Eventual BG 91>90 but Delta -2 < Exp. Delta 1.2; cancel", 
+      "reason": "BG 77<80", 
       "rate": 0, 
-      "eventualBG": 91, 
-      "timestamp": "2015-12-18T14:52:05.000Z", 
-      "duration": 0, 
-      "tick": -2
+      "eventualBG": 68, 
+      "timestamp": "2015-12-18T23:47:24.000Z", 
+      "duration": 30, 
+      "tick": -1
     }
   }
 }
