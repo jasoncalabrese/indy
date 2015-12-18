@@ -17,31 +17,31 @@
     "suggested": {
       "bg": 104, 
       "temp": "absolute", 
-      "snoozeBG": 112, 
-      "timestamp": "2015-12-18T11:41:47.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 112>110 but Delta -1 < Exp. Delta 1.2; cancel", 
-      "eventualBG": 112, 
-      "duration": 0, 
-      "tick": -1
+      "snoozeBG": 106, 
+      "timestamp": "2015-12-18T11:46:54.000Z", 
+      "rate": 0.25, 
+      "reason": "Eventual BG 106<110, no temp, setting 0.225U/hr", 
+      "eventualBG": 106, 
+      "duration": 30, 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2015-12-18T11:41:46.000Z", 
+      "timestamp": "2015-12-18T11:46:53.000Z", 
       "bolusiob": 0, 
-      "iob": -0.12884601225284856, 
-      "activity": -0.0027645768077601417
+      "iob": -0.0656663674933185, 
+      "activity": -0.0026523722222222225
     }, 
     "enacted": {
       "bg": 104, 
       "temp": "absolute", 
-      "snoozeBG": 112, 
+      "snoozeBG": 106, 
       "recieved": true, 
-      "reason": "Eventual BG 112>110 but Delta -1 < Exp. Delta 1.2; cancel", 
-      "rate": 0, 
-      "eventualBG": 112, 
-      "timestamp": "2015-12-18T11:42:04.000Z", 
-      "duration": 0, 
-      "tick": -1
+      "reason": "Eventual BG 106<110, no temp, setting 0.225U/hr", 
+      "rate": 0.25, 
+      "eventualBG": 106, 
+      "timestamp": "2015-12-18T11:47:12.000Z", 
+      "duration": 30, 
+      "tick": "+0"
     }
   }
 }
