@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "carbs": "24",
+    "ratio": "12",
+    "wizard": {
+      "unknown_byte[8]": 0,
+      "_type": "BolusWizard",
+      "bg": 0,
+      "_byte[5]": 0,
+      "unknown_byte[10]": 0,
+      "_description": "BolusWizard 2015-12-19T08:48:00 head[2], body[13] op[0x5b]",
+      "timestamp": "2015-12-19T08:48:00-08:00",
+      "_body": "18500c506e0014000000001478",
+      "bg_target_high": 120,
+      "sensitivity": 80,
+      "carb_ratio": 12,
+      "food_estimate": 2,
+      "unabsorbed_insulin_total": 0,
+      "correction_estimate": 0,
+      "carb_input": 24,
+      "_head": "5b00",
+      "unabsorbed_insulin_count": "??",
+      "_byte[7]": 0,
+      "bolus_estimate": 2,
+      "_date": "c03008130f",
+      "bg_target_low": 110
+    },
+    "timestamp": "2015-12-19T08:48:00-08:00",
+    "created_at": "2015-12-19T08:48:00-08:00",
+    "eventType": "Carb Correction",
+    "insulin": 0,
+    "notes": "Food estimate 2\nCorrection estimate 0\nBolus estimate 2\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
+    "enteredBy": "openaps://medtronic/522"
+  }
+]
