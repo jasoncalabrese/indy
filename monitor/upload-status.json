@@ -15,19 +15,21 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 152, 
+      "bg": 157, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
-      "timestamp": "2015-12-19T22:21:49.000Z", 
-      "reason": "Eventual BG 141>=120, temp 1.05 >~ req 1.15U/hr", 
-      "eventualBG": 141, 
-      "tick": "+4"
+      "snoozeBG": 149, 
+      "timestamp": "2015-12-19T22:26:43.000Z", 
+      "rate": 1.35, 
+      "reason": "Eventual BG 149>=120, temp 1.05<1.35U/hr", 
+      "eventualBG": 149, 
+      "duration": 30, 
+      "tick": "+5"
     }, 
     "iob": {
-      "timestamp": "2015-12-19T22:21:49.000Z", 
+      "timestamp": "2015-12-19T22:26:42.000Z", 
       "bolusiob": 0, 
-      "iob": 0.5507034187461112, 
-      "activity": 0.018507830687830684
+      "iob": 0.5158187581638888, 
+      "activity": 0.016981834215167545
     }, 
     "enacted": {
       "bg": 148, 
