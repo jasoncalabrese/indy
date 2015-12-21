@@ -15,20 +15,20 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 159, 
+      "bg": 150, 
       "temp": "absolute", 
-      "snoozeBG": 167, 
-      "timestamp": "2015-12-21T19:12:22.000Z", 
-      "reason": "Eventual BG 104<110, but Delta +2 > Exp. Delta -6.2; no temp to cancel", 
-      "eventualBG": 104, 
-      "tick": "+2"
+      "snoozeBG": 152, 
+      "timestamp": "2015-12-21T19:16:28.000Z", 
+      "reason": "Eventual BG 91<110, bolus snooze: eventual BG range 91-152", 
+      "eventualBG": 91, 
+      "tick": -9
     }, 
     "iob": {
-      "timestamp": "2015-12-21T19:12:21.000Z", 
-      "bolusiob": 0.526, 
-      "basaliob": -0.059, 
-      "iob": 0.944, 
-      "activity": 0.0163
+      "timestamp": "2015-12-21T19:16:27.000Z", 
+      "bolusiob": 0.509, 
+      "basaliob": -0.06, 
+      "iob": 0.913, 
+      "activity": 0.016
     }, 
     "enacted": {
       "bg": 162, 
