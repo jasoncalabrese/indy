@@ -6,43 +6,43 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-22T20:03:55.000Z", 
+      "timestamp": "2015-12-22T20:09:11.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 114, 
-    "clock": "2015-12-22T12:08:14-08:00"
+    "clock": "2015-12-22T12:11:06-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 128, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2015-12-22T20:06:55.000Z", 
+      "snoozeBG": 91, 
+      "timestamp": "2015-12-22T20:09:35.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 87<110, setting -0.2U/hr", 
-      "eventualBG": 87, 
+      "reason": "Eventual BG 91<110, setting -0.1U/hr", 
+      "eventualBG": 91, 
       "duration": 30, 
       "tick": -2
     }, 
     "iob": {
-      "timestamp": "2015-12-22T20:06:55.000Z", 
+      "timestamp": "2015-12-22T20:09:34.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.277, 
-      "iob": 0.277, 
-      "activity": 0.0013
+      "basaliob": 0.219, 
+      "iob": 0.219, 
+      "activity": 0.0015
     }, 
     "enacted": {
-      "bg": 130, 
+      "bg": 128, 
       "temp": "absolute", 
-      "snoozeBG": 97, 
+      "snoozeBG": 91, 
       "recieved": true, 
-      "reason": "Eventual BG 97<110, setting 0.05U/hr", 
-      "rate": 0.05, 
-      "eventualBG": 97, 
-      "timestamp": "2015-12-22T19:57:02.000Z", 
+      "reason": "Eventual BG 91<110, setting -0.1U/hr", 
+      "rate": 0, 
+      "eventualBG": 91, 
+      "timestamp": "2015-12-22T20:09:53.000Z", 
       "duration": 30, 
-      "tick": -19
+      "tick": -2
     }
   }
 }
