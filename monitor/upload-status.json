@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-23T04:02:40.000Z", 
+      "timestamp": "2015-12-23T04:08:35.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 104, 
-    "clock": "2015-12-22T20:01:41-08:00"
+    "reservoir": 103.8, 
+    "clock": "2015-12-22T20:07:40-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 125, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 152, 
-      "timestamp": "2015-12-23T04:01:25.000Z", 
-      "rate": 1.85, 
-      "reason": "Eventual BG 159>=120, temp 1.625<1.85U/hr", 
-      "eventualBG": 159, 
+      "snoozeBG": 134, 
+      "timestamp": "2015-12-23T04:06:40.000Z", 
+      "rate": 1.4, 
+      "reason": "30m@1.300 = 0.650 > req 0.425+0.2U", 
+      "eventualBG": 173, 
       "duration": 30, 
-      "mealAssist": "Carbs: 49 Boluses: 2.2 Target: 100 Deviation: 34", 
-      "tick": "+6"
+      "mealAssist": "Carbs: 49 Boluses: 2.2 Target: 100 Deviation: 38", 
+      "tick": "+10"
     }, 
     "iob": {
-      "timestamp": "2015-12-23T04:01:24.000Z", 
-      "bolussnooze": 1.288, 
-      "basaliob": 0.068, 
-      "iob": 2.025, 
-      "activity": 0.0105
+      "timestamp": "2015-12-23T04:06:39.000Z", 
+      "bolussnooze": 1.053, 
+      "basaliob": 0.173, 
+      "iob": 2.063, 
+      "activity": 0.0124
     }, 
     "enacted": {
-      "bg": 125, 
+      "bg": 135, 
       "temp": "absolute", 
-      "snoozeBG": 152, 
+      "snoozeBG": 134, 
       "recieved": true, 
-      "reason": "Eventual BG 159>=120, temp 1.625<1.85U/hr", 
-      "rate": 1.85, 
-      "eventualBG": 159, 
-      "timestamp": "2015-12-23T04:01:43.000Z", 
+      "reason": "30m@1.300 = 0.650 > req 0.425+0.2U", 
+      "rate": 1.375, 
+      "eventualBG": 173, 
+      "timestamp": "2015-12-23T04:06:58.000Z", 
       "duration": 30, 
-      "mealAssist": "Carbs: 49 Boluses: 2.2 Target: 100 Deviation: 34", 
-      "tick": "+6"
+      "mealAssist": "Carbs: 49 Boluses: 2.2 Target: 100 Deviation: 38", 
+      "tick": "+10"
     }
   }
 }
