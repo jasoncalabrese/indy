@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-24T04:53:39.000Z", 
+      "timestamp": "2015-12-24T04:58:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 80.1, 
-    "clock": "2015-12-23T20:52:40-08:00"
+    "reservoir": 80, 
+    "clock": "2015-12-23T20:57:40-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 162, 
+      "bg": 173, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
-      "timestamp": "2015-12-24T04:52:09.000Z", 
-      "rate": 1.45, 
-      "reason": "Eventual BG 221>=120, temp 1.35<1.461U/hr", 
-      "eventualBG": 221, 
+      "snoozeBG": 154, 
+      "timestamp": "2015-12-24T04:57:22.000Z", 
+      "rate": 1.75, 
+      "reason": "Eventual BG 230>=120, temp 1.425<1.75U/hr", 
+      "eventualBG": 230, 
       "duration": 30, 
-      "mealAssist": "Carbs: 45 Boluses: 2.4 Target: 100 Deviation: 59", 
-      "tick": "+9"
+      "mealAssist": "Carbs: 45 Boluses: 2.4 Target: 100 Deviation: 57", 
+      "tick": "+11"
     }, 
     "iob": {
-      "timestamp": "2015-12-24T04:52:08.000Z", 
-      "bolussnooze": 0.001, 
-      "basaliob": -0.145, 
-      "iob": 0.893, 
-      "activity": 0.0204
+      "timestamp": "2015-12-24T04:57:22.000Z", 
+      "bolussnooze": 0, 
+      "basaliob": -0.079, 
+      "iob": 0.848, 
+      "activity": 0.0192
     }, 
     "enacted": {
-      "bg": 162, 
+      "bg": 173, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
+      "snoozeBG": 154, 
       "recieved": true, 
-      "reason": "Eventual BG 221>=120, temp 1.35<1.461U/hr", 
-      "rate": 1.425, 
-      "eventualBG": 221, 
-      "timestamp": "2015-12-24T04:52:27.000Z", 
+      "reason": "Eventual BG 230>=120, temp 1.425<1.75U/hr", 
+      "rate": 1.75, 
+      "eventualBG": 230, 
+      "timestamp": "2015-12-24T04:57:40.000Z", 
       "duration": 30, 
-      "mealAssist": "Carbs: 45 Boluses: 2.4 Target: 100 Deviation: 59", 
-      "tick": "+9"
+      "mealAssist": "Carbs: 45 Boluses: 2.4 Target: 100 Deviation: 57", 
+      "tick": "+11"
     }
   }
 }
