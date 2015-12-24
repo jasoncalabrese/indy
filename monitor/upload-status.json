@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-24T21:02:57.000Z", 
+      "timestamp": "2015-12-24T21:04:57.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 65.9, 
-    "clock": "2015-12-24T13:01:41-08:00"
+    "reservoir": 65.8, 
+    "clock": "2015-12-24T13:03:41-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 90, 
+      "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 188, 
-      "timestamp": "2015-12-24T20:59:49.000Z", 
-      "reason": "113 is in range. No temp required", 
-      "eventualBG": 113, 
-      "mealAssist": "Carbs: 46 Boluses: 2.5 Target: 100 Deviation: 23", 
-      "tick": "+6"
+      "snoozeBG": 197, 
+      "timestamp": "2015-12-24T21:03:27.000Z", 
+      "rate": 1.1, 
+      "reason": "Eventual BG 127>=120, no temp, setting 1.1U/hr", 
+      "eventualBG": 127, 
+      "duration": 30, 
+      "mealAssist": "Carbs: 46 Boluses: 2.5 Target: 100 Deviation: 30", 
+      "tick": "+7"
     }, 
     "iob": {
-      "timestamp": "2015-12-24T20:59:49.000Z", 
-      "bolussnooze": 1.891, 
-      "basaliob": -0.169, 
-      "iob": 2.003, 
-      "activity": 0.0073
+      "timestamp": "2015-12-24T21:03:26.000Z", 
+      "bolussnooze": 1.836, 
+      "basaliob": -0.166, 
+      "iob": 1.976, 
+      "activity": 0.008
     }, 
     "enacted": {
-      "bg": 84, 
+      "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 175, 
+      "snoozeBG": 197, 
       "recieved": true, 
-      "reason": "94 is in range. No temp required; cancel", 
-      "rate": 0, 
-      "eventualBG": 94, 
-      "timestamp": "2015-12-24T20:54:03.000Z", 
-      "duration": 0, 
-      "mealAssist": "Carbs: 46 Boluses: 2.5 Target: 100 Deviation: 10", 
-      "tick": "+6"
+      "reason": "Eventual BG 127>=120, no temp, setting 1.1U/hr", 
+      "rate": 1.1, 
+      "eventualBG": 127, 
+      "timestamp": "2015-12-24T21:03:32.000Z", 
+      "duration": 30, 
+      "mealAssist": "Carbs: 46 Boluses: 2.5 Target: 100 Deviation: 30", 
+      "tick": "+7"
     }
   }
 }
