@@ -1,82 +1,17 @@
 {
-  "_id": "567c93c5f79f20e72c7ae31b",
-  "duration": "0",
-  "bolus": {
-    "_type": "Bolus",
-    "_description": "Bolus 2015-12-24T16:51:37 head[4], body[0] op[0x01]",
-    "timestamp": "2015-12-24T16:51:37-08:00",
-    "_body": "",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c116088c028f6c02800d01446d014c8d0",
-        "data": [
-          {
-            "amount": 2.4,
-            "age": 136
-          },
-          {
-            "amount": 1,
-            "age": 246
-          },
-          {
-            "amount": 1,
-            "age": 256
-          },
-          {
-            "amount": 0.5,
-            "age": 326
-          },
-          {
-            "amount": 0.5,
-            "age": 456
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "programmed": 1.6,
-    "duration": 0,
-    "amount": 1.6,
-    "_head": "01101000",
-    "type": "normal",
-    "_date": "e53350180f"
-  },
-  "timestamp": "2015-12-24T16:51:37-08:00",
-  "created_at": "2015-12-24T16:51:37-08:00",
-  "carbs": "0",
-  "ratio": "17",
-  "bg": "300",
-  "glucose": "300",
-  "glucoseType": "BolusWizard",
-  "wizard": {
-    "unknown_byte[8]": 0,
-    "_type": "BolusWizard",
-    "bg": 300,
-    "_byte[5]": 20,
-    "unknown_byte[10]": 0,
-    "_description": "BolusWizard 2015-12-24T16:51:37 head[2], body[13] op[0x5b]",
-    "timestamp": "2015-12-24T16:51:37-08:00",
-    "_body": "0051115a6e1400000004001078",
-    "bg_target_high": 120,
-    "sensitivity": 90,
-    "carb_ratio": 17,
-    "food_estimate": 0,
-    "unabsorbed_insulin_total": 0.4,
-    "correction_estimate": 0.4,
-    "carb_input": 0,
-    "_head": "5b2c",
-    "unabsorbed_insulin_count": "??",
-    "_byte[7]": 0,
-    "bolus_estimate": 1.6,
-    "_date": "e53310180f",
-    "bg_target_low": 110
-  },
-  "eventType": "Meal Bolus",
-  "insulin": "1.6",
-  "notes": "Normal bolus with wizard.\nProgrammed bolus 1.6\nDelivered bolus 1.6\nPercent delivered:  100%\nFood estimate 0\nCorrection estimate 0.4\nBolus estimate 1.6\nTarget low 110\nTarget high 120\nHypothetical glucose delta -144\nGlucose was: 300",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
-  "enteredBy": "openaps://medtronic/522"
+  "_id": "567c9ff6f79f20e72c7ae338",
+  "_type": "Prime",
+  "_description": "Prime 2015-12-24T17:42:54 head[5], body[0] op[0x03]",
+  "timestamp": "2015-12-24T17:42:54-08:00",
+  "_body": "",
+  "_head": "0300070007",
+  "amount": 0.7,
+  "fixed": 0.7,
+  "type": "fixed",
+  "_date": "f62a11180f",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+  "created_at": "2015-12-24T17:42:54-08:00",
+  "enteredBy": "openaps://medtronic/522",
+  "eventType": "Note",
+  "notes": "Prime 522 "
 }
