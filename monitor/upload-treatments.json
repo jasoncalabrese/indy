@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "duration": "0",
+    "raw_duration": {
+      "_type": "TempBasalDuration",
+      "_description": "TempBasalDuration 2015-12-25T11:12:09 head[2], body[0] op[0x16]",
+      "timestamp": "2015-12-25T11:12:09-08:00",
+      "_body": "",
+      "_head": "1600",
+      "duration (min)": 0,
+      "_date": "c90c0b590f"
+    },
+    "timestamp": "2015-12-25T11:12:09-08:00",
+    "absolute": "0",
+    "rate": 0,
+    "raw_rate": {
+      "_type": "TempBasal",
+      "temp": "absolute",
+      "_description": "TempBasal 2015-12-25T11:12:09 head[2], body[1] op[0x33]",
+      "timestamp": "2015-12-25T11:12:09-08:00",
+      "_body": "00",
+      "_head": "3300",
+      "rate": 0,
+      "_date": "c90c0b590f"
+    },
+    "eventType": "Temp Basal",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
+    "created_at": "2015-12-25T11:12:09-08:00",
+    "enteredBy": "openaps://medtronic/522"
+  },
+  {
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2015-12-25T11:10:13 head[4], body[0] op[0x01]",
+      "timestamp": "2015-12-25T11:10:13-08:00",
+      "_body": "",
+      "appended": [
+        {
+          "_type": "UnabsorbedInsulinBolus",
+          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]",
+          "_body": "",
+          "_head": "5c081287c03e91c0",
+          "data": [
+            {
+              "amount": 0.45,
+              "age": 135
+            },
+            {
+              "amount": 1.55,
+              "age": 145
+            }
+          ],
+          "_date": ""
+        }
+      ],
+      "programmed": 1,
+      "duration": 0,
+      "amount": 1,
+      "_head": "010a0a00",
+      "type": "normal",
+      "_date": "cd0a4b190f"
+    },
+    "timestamp": "2015-12-25T11:10:12-08:00",
+    "created_at": "2015-12-25T11:10:12-08:00",
+    "carbs": "18",
+    "ratio": "17",
+    "wizard": {
+      "unknown_byte[8]": 0,
+      "_type": "BolusWizard",
+      "bg": 0,
+      "_byte[5]": 0,
+      "unknown_byte[10]": 0,
+      "_description": "BolusWizard 2015-12-25T11:10:12 head[2], body[13] op[0x5b]",
+      "timestamp": "2015-12-25T11:10:12-08:00",
+      "_body": "1250115a6e000a000000000a78",
+      "bg_target_high": 120,
+      "sensitivity": 90,
+      "carb_ratio": 17,
+      "food_estimate": 1,
+      "unabsorbed_insulin_total": 0,
+      "correction_estimate": 0,
+      "carb_input": 18,
+      "_head": "5b00",
+      "unabsorbed_insulin_count": "??",
+      "_byte[7]": 0,
+      "bolus_estimate": 1,
+      "_date": "cc0a0b190f",
+      "bg_target_low": 110
+    },
+    "eventType": "<none>",
+    "insulin": "1",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 1\nDelivered bolus 1\nPercent delivered:  100%\nFood estimate 1\nCorrection estimate 0\nBolus estimate 1\nTarget low 110\nTarget high 120\nHypothetical glucose delta -90",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
+    "enteredBy": "openaps://medtronic/522"
+  }
+]
