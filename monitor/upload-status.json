@@ -34,17 +34,17 @@
       "activity": 0.0093
     }, 
     "enacted": {
-      "bg": 178, 
+      "bg": 184, 
       "temp": "absolute", 
-      "snoozeBG": 152, 
+      "snoozeBG": 161, 
       "recieved": true, 
-      "reason": "112 is in range. No temp required; cancel", 
-      "rate": 0, 
-      "eventualBG": 112, 
-      "timestamp": "2015-12-26T23:22:09.000Z", 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 1.4 Target: 115 Deviation: 20 BGI: -4.1", 
-      "tick": "+1"
+      "reason": "Eventual BG 207>=120, adj. req. rate:1.8 to maxSafeBasal:1.6, no temp, setting 1.6U/hr", 
+      "rate": 1.6, 
+      "eventualBG": 207, 
+      "timestamp": "2015-12-26T23:27:16.000Z", 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 24 Boluses: 1.4 Target: 100 Deviation: 23 BGI: -4.18", 
+      "tick": "+6"
     }
   }
 }
