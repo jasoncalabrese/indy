@@ -1,5 +1,81 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2015-12-28T03:09:51 head[4], body[0] op[0x01]", 
+    "timestamp": "2015-12-28T03:09:51", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.3, 
+            "age": 114
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 334
+          }, 
+          {
+            "amount": 1.1, 
+            "age": 394
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b3472c0144ed02c8ad0", 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.7, 
+    "_head": "01070700", 
+    "amount": 0.7, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "f309431c0f"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 225, 
+    "bg_target_high": 120, 
+    "correction_estimate": 1.1, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2015-12-28T03:09:51 head[2], body[13] op[0x5b]", 
+    "timestamp": "2015-12-28T03:09:51", 
+    "_body": "0050115a730b00000004000778", 
+    "carb_input": 0, 
+    "_head": "5be1", 
+    "unabsorbed_insulin_total": 0.4, 
+    "_byte[5]": 11, 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "_date": "f309031c0f", 
+    "bolus_estimate": 0.7, 
+    "unknown_byte[8]": 0, 
+    "carb_ratio": 17, 
+    "food_estimate": 0.0, 
+    "bg_target_low": 115, 
+    "sensitivity": 90
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-28T03:09:45 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-28T03:09:45", 
+    "_body": "", 
+    "_head": "0ae1", 
+    "amount": 225, 
+    "_date": "ed09231c0f"
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2015-12-28T03:09:28 head[2], body[0] op[0x0a]", 
+    "timestamp": "2015-12-28T03:09:28", 
+    "_body": "", 
+    "_head": "0a7d", 
+    "amount": 125, 
+    "_date": "dc09231c0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2015-12-28T02:55:39 head[2], body[0] op[0x16]", 
