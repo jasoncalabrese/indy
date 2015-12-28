@@ -6,44 +6,44 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-28T23:42:38.000Z", 
+      "timestamp": "2015-12-28T23:49:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 117.9, 
-    "clock": "2015-12-28T15:47:24-08:00"
+    "clock": "2015-12-28T15:48:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 105, 
+      "bg": 107, 
       "temp": "absolute", 
-      "snoozeBG": 121, 
-      "timestamp": "2015-12-28T23:46:03.000Z", 
-      "rate": 0.95, 
-      "reason": "Eventual BG 129>=120, temp 0<0.967U/hr", 
-      "eventualBG": 129, 
+      "snoozeBG": 127, 
+      "timestamp": "2015-12-28T23:51:03.000Z", 
+      "rate": 1.1, 
+      "reason": "Eventual BG 138>=120, no temp, setting 1.1U/hr", 
+      "eventualBG": 138, 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 24 Boluses: 1.4 Target: 100 Deviation: 8 BGI: -1.31", 
-      "tick": "+3"
+      "mealAssist": "On: Carbs: 24 Boluses: 1.4 Target: 100 Deviation: 11 BGI: -0.94", 
+      "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2015-12-28T23:46:02.000Z", 
+      "timestamp": "2015-12-28T23:51:03.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.186, 
-      "iob": -0.089, 
-      "activity": 0.0029
+      "basaliob": -0.167, 
+      "iob": -0.104, 
+      "activity": 0.0021
     }, 
     "enacted": {
       "bg": 105, 
       "temp": "absolute", 
-      "snoozeBG": 121, 
+      "snoozeBG": 117, 
       "recieved": true, 
-      "reason": "Eventual BG 129>=120, temp 0<0.967U/hr", 
-      "rate": 0.925, 
-      "eventualBG": 129, 
-      "timestamp": "2015-12-28T23:46:20.000Z", 
-      "duration": 30, 
-      "mealAssist": "On: Carbs: 24 Boluses: 1.4 Target: 100 Deviation: 8 BGI: -1.31", 
+      "reason": "117 < 120; cancel", 
+      "rate": 0, 
+      "eventualBG": 124, 
+      "timestamp": "2015-12-28T23:48:55.000Z", 
+      "duration": 0, 
+      "mealAssist": "On: Carbs: 24 Boluses: 1.4 Target: 100 Deviation: 7 BGI: -0.99", 
       "tick": "+3"
     }
   }
