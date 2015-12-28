@@ -1,5 +1,22 @@
 [
   {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2015-12-28T00:00:00 head[1], body[41] op[0x6d]", 
+    "timestamp": "2015-12-28T00:00:00-08:00", 
+    "_body": "0500b85efa04000003f6022e3701c82d00c201c82d00f836002c0a00a4240e0301000a0c00e8000000", 
+    "_head": "6d", 
+    "_date": "db0f"
+  }, 
+  {
+    "_type": "MResultTotals", 
+    "_description": "MResultTotals 2015-12-28T00:00:00 head[5], body[0] op[0x07]", 
+    "timestamp": "2015-12-28T00:00:00-08:00", 
+    "_body": "", 
+    "_head": "07000003f6", 
+    "valid_date": "2015-12-27", 
+    "_date": "db0f"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2015-12-27T23:40:55 head[2], body[0] op[0x16]", 
     "timestamp": "2015-12-27T23:40:55-08:00", 
@@ -771,17 +788,5 @@
     "_head": "0a97", 
     "amount": 151, 
     "_date": "f302321b0f"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2015-12-27T17:59:49 head[4], body[0] op[0x01]", 
-    "timestamp": "2015-12-27T17:59:49-08:00", 
-    "_body": "", 
-    "programmed": 0.3, 
-    "_head": "01030300", 
-    "amount": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "f13b511b0f"
   }
 ]
