@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-29T19:38:42.000Z", 
+      "timestamp": "2015-12-29T19:40:53.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 99.7, 
-    "clock": "2015-12-29T11:37:22-08:00"
+    "clock": "2015-12-29T11:39:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 123, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 112, 
-      "timestamp": "2015-12-29T19:39:00.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 111>110 but Delta -4 < Exp. Delta -2.5; cancel", 
-      "eventualBG": 111, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: 0 BGI: -2.61", 
-      "tick": -4
+      "snoozeBG": 105, 
+      "timestamp": "2015-12-29T19:41:22.000Z", 
+      "rate": 0.3, 
+      "reason": "Eventual BG 104<110, setting 0.278U/hr", 
+      "eventualBG": 104, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: -1 BGI: -2.56", 
+      "tick": -3
     }, 
     "iob": {
-      "timestamp": "2015-12-29T19:39:00.000Z", 
-      "bolussnooze": 0.01, 
-      "basaliob": 0.017, 
-      "iob": 0.133, 
-      "activity": 0.0058
+      "timestamp": "2015-12-29T19:41:22.000Z", 
+      "bolussnooze": 0.008, 
+      "basaliob": 0.06, 
+      "iob": 0.17, 
+      "activity": 0.0057
     }, 
     "enacted": {
-      "bg": 123, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
+      "snoozeBG": 105, 
       "recieved": true, 
-      "reason": "Eventual BG 104<110, setting 0.322U/hr", 
+      "reason": "Eventual BG 104<110, setting 0.278U/hr", 
       "rate": 0.275, 
       "eventualBG": 104, 
-      "timestamp": "2015-12-29T19:36:25.000Z", 
+      "timestamp": "2015-12-29T19:41:28.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: 0 BGI: -2.7", 
-      "tick": -4
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.2 Target: 115 Deviation: -1 BGI: -2.56", 
+      "tick": -3
     }
   }
 }
