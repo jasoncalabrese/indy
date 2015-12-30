@@ -6,43 +6,50 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-30T04:41:39.000Z", 
+      "timestamp": "2015-12-30T04:47:38.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 86.7, 
-    "clock": "2015-12-29T20:40:38-08:00"
+    "reservoir": 85.8, 
+    "clock": "2015-12-29T20:46:38-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 249, 
+      "bg": 256, 
       "temp": "absolute", 
-      "snoozeBG": 203, 
-      "timestamp": "2015-12-30T04:40:41.000Z", 
-      "reason": "Eventual BG 308>=120, adj. req. rate:2.8 to maxSafeBasal:2.1, temp 2.1 >~ req 2.0999999999999996U/hr", 
-      "eventualBG": 308, 
-      "mealAssist": "On: Carbs: 55 Boluses: 3.9 Target: 100 Deviation: 59 BGI: -13.14", 
-      "tick": "+9"
+      "snoozeBG": 199, 
+      "timestamp": "2015-12-30T04:45:43.000Z", 
+      "rate": 2.1, 
+      "reason": "Eventual BG 314>=120, adj. req. rate:2.8 to maxSafeBasal:2.1, temp 2.1<2.0999999999999996U/hr", 
+      "eventualBG": 314, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 55 Boluses: 3.9 Target: 100 Deviation: 58 BGI: -12.42", 
+      "tick": "+7"
     }, 
     "iob": {
-      "timestamp": "2015-12-30T04:40:40.000Z", 
-      "bolussnooze": 0.347, 
-      "basaliob": 0.751, 
-      "iob": 1.688, 
-      "activity": 0.0292
+      "timestamp": "2015-12-30T04:45:42.000Z", 
+      "bolussnooze": 0.283, 
+      "basaliob": 0.859, 
+      "iob": 1.7, 
+      "activity": 0.0276
     }, 
     "enacted": {
-      "bg": 219, 
+      "requested": {
+        "duration": 30, 
+        "rate": 2.1, 
+        "temp": "absolute"
+      }, 
+      "bg": 256, 
       "temp": "absolute", 
-      "snoozeBG": 172, 
-      "recieved": true, 
-      "reason": "Eventual BG 271>=120, adj. req. rate:2.1 to maxSafeBasal:2.1, no temp, setting 2.0999999999999996U/hr", 
+      "snoozeBG": 199, 
+      "timestamp": "2015-12-30T04:46:08.000Z", 
+      "reason": "Eventual BG 314>=120, adj. req. rate:2.8 to maxSafeBasal:2.1, temp 2.1<2.0999999999999996U/hr", 
       "rate": 2.1, 
-      "eventualBG": 271, 
-      "timestamp": "2015-12-30T04:15:47.000Z", 
-      "duration": 30, 
-      "mealAssist": "On: Carbs: 55 Boluses: 3.9 Target: 100 Deviation: 52 BGI: -17.01", 
-      "tick": "+1"
+      "eventualBG": 314, 
+      "recieved": false, 
+      "duration": 0, 
+      "mealAssist": "On: Carbs: 55 Boluses: 3.9 Target: 100 Deviation: 58 BGI: -12.42", 
+      "tick": "+7"
     }
   }
 }
