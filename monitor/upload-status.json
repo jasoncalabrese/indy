@@ -2,52 +2,47 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.42
+      "voltage": 1.4
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2015-12-30T05:36:38.000Z", 
+      "timestamp": "2015-12-30T08:21:49.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 85.3, 
-    "clock": "2015-12-29T21:35:37-08:00"
+    "reservoir": 84.5, 
+    "clock": "2015-12-30T00:20:45-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 201, 
+      "bg": 78, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
-      "timestamp": "2015-12-30T05:35:42.000Z", 
-      "reason": "Eventual BG 84<110, bolus snooze: eventual BG range 84-127", 
-      "eventualBG": 84, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 2.2 Target: 115 Deviation: 5 BGI: -8.23", 
-      "tick": -6
+      "snoozeBG": 134, 
+      "timestamp": "2015-12-30T08:20:37.000Z", 
+      "reason": "BG 78<82.5, avg delta 5.33>0; no high-temp to cancel", 
+      "eventualBG": 134, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 11 BGI: 1.8", 
+      "tick": "+4"
     }, 
     "iob": {
-      "timestamp": "2015-12-30T05:35:41.000Z", 
-      "bolussnooze": 0.322, 
-      "basaliob": 0.45, 
-      "iob": 1.353, 
-      "activity": 0.0183
+      "timestamp": "2015-12-30T08:20:36.000Z", 
+      "bolussnooze": 0, 
+      "basaliob": -0.496, 
+      "iob": -0.496, 
+      "activity": -0.004
     }, 
     "enacted": {
-      "requested": {
-        "duration": 30, 
-        "rate": 2.1, 
-        "temp": "absolute"
-      }, 
-      "bg": 256, 
+      "bg": 47, 
       "temp": "absolute", 
-      "snoozeBG": 199, 
-      "timestamp": "2015-12-30T04:46:08.000Z", 
-      "reason": "Eventual BG 314>=120, adj. req. rate:2.8 to maxSafeBasal:2.1, temp 2.1<2.0999999999999996U/hr", 
-      "rate": 2.1, 
-      "eventualBG": 314, 
-      "recieved": false, 
-      "duration": 0, 
-      "mealAssist": "On: Carbs: 55 Boluses: 3.9 Target: 100 Deviation: 58 BGI: -12.42", 
-      "tick": "+7"
+      "snoozeBG": 91, 
+      "recieved": true, 
+      "reason": "BG 47<80", 
+      "rate": 0, 
+      "eventualBG": 91, 
+      "timestamp": "2015-12-30T07:51:13.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -8 BGI: 1.67", 
+      "tick": "+0"
     }
   }
 }
