@@ -11,40 +11,40 @@
       "suspended": false
     }, 
     "reservoir": 130.7, 
-    "clock": "2015-12-31T23:55:37-08:00"
+    "clock": "2016-01-01T00:00:37-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 70, 
+      "bg": 87, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
-      "timestamp": "2016-01-01T07:55:27.000Z", 
-      "rate": 0, 
-      "reason": "BG 70<80, delta 12>0, cancel low temp", 
-      "eventualBG": 162, 
-      "duration": 0, 
-      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 21 BGI: 0.36", 
-      "tick": "+12"
+      "snoozeBG": 170, 
+      "timestamp": "2016-01-01T08:00:23.000Z", 
+      "rate": 2.1, 
+      "reason": "Eventual BG 204>=120, adj. req. rate:2.3 to maxSafeBasal:2.1, no temp, setting 2.0999999999999996U/hr", 
+      "eventualBG": 204, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 34 BGI: 0.72", 
+      "tick": "+17"
     }, 
     "iob": {
-      "timestamp": "2016-01-01T07:55:27.000Z", 
+      "timestamp": "2016-01-01T08:00:22.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.55, 
-      "iob": -0.55, 
-      "activity": -0.0008
+      "basaliob": -0.542, 
+      "iob": -0.542, 
+      "activity": -0.0016
     }, 
     "enacted": {
-      "bg": 70, 
+      "bg": 87, 
       "temp": "absolute", 
-      "snoozeBG": 141, 
+      "snoozeBG": 170, 
       "recieved": true, 
-      "reason": "BG 70<80, delta 12>0, cancel low temp", 
-      "rate": 0, 
-      "eventualBG": 162, 
-      "timestamp": "2016-01-01T07:55:45.000Z", 
-      "duration": 0, 
-      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 21 BGI: 0.36", 
-      "tick": "+12"
+      "reason": "Eventual BG 204>=120, adj. req. rate:2.3 to maxSafeBasal:2.1, no temp, setting 2.0999999999999996U/hr", 
+      "rate": 2.1, 
+      "eventualBG": 204, 
+      "timestamp": "2016-01-01T08:00:40.000Z", 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 0 Boluses: 0 Target: 100 Deviation: 34 BGI: 0.72", 
+      "tick": "+17"
     }
   }
 }
