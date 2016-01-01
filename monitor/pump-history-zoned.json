@@ -1,5 +1,84 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-01T08:10:20 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-01T08:10:20-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[20], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c14189bc028b9c00c9fd002b3d022bdd050dbd0", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 155
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 185
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 415
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 435
+          }, 
+          {
+            "amount": 0.85, 
+            "age": 445
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 475
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.6, 
+    "duration": 0, 
+    "amount": 1.6, 
+    "_head": "01101000", 
+    "type": "normal", 
+    "_date": "144a480110"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 84, 
+    "_byte[5]": 252, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-01-01T08:10:20 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-01-01T08:10:20-08:00", 
+    "_body": "18500c5a73fc14f00001001078", 
+    "bg_target_high": 120, 
+    "sensitivity": 90, 
+    "carb_ratio": 12, 
+    "food_estimate": 2.0, 
+    "unabsorbed_insulin_total": 0.1, 
+    "correction_estimate": -0.4, 
+    "carb_input": 24, 
+    "_head": "5b54", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 240, 
+    "bolus_estimate": 1.6, 
+    "_date": "144a080110", 
+    "bg_target_low": 115
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-01-01T08:10:06 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-01T08:10:06-08:00", 
+    "_body": "", 
+    "_head": "0a54", 
+    "amount": 84, 
+    "_date": "064a280110"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-01T08:00:17 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-01T08:00:17-08:00", 
