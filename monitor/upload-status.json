@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-01T04:26:42.000Z", 
+      "timestamp": "2016-01-01T04:31:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 132.6, 
-    "clock": "2015-12-31T20:25:37-08:00"
+    "clock": "2015-12-31T20:30:37-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 114, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 18, 
-      "timestamp": "2016-01-01T04:25:21.000Z", 
+      "snoozeBG": 28, 
+      "timestamp": "2016-01-01T04:30:32.000Z", 
       "rate": 0, 
-      "reason": "Eventual BG 4<110, setting -1.606U/hr", 
-      "eventualBG": 4, 
+      "reason": "Eventual BG 22<110, setting -1.383U/hr", 
+      "eventualBG": 22, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 100 Boluses: 2.8 Target: 115 Deviation: 9 BGI: -13.63", 
-      "tick": -26
+      "mealAssist": "Off: Carbs: 100 Boluses: 2.8 Target: 115 Deviation: 5 BGI: -12.64", 
+      "tick": -5
     }, 
     "iob": {
-      "timestamp": "2016-01-01T04:25:20.000Z", 
-      "bolussnooze": 0.1, 
-      "basaliob": 0.121, 
-      "iob": 1.327, 
-      "activity": 0.0303
+      "timestamp": "2016-01-01T04:30:31.000Z", 
+      "bolussnooze": 0.044, 
+      "basaliob": 0.031, 
+      "iob": 1.02, 
+      "activity": 0.0281
     }, 
     "enacted": {
-      "bg": 114, 
+      "bg": 109, 
       "temp": "absolute", 
-      "snoozeBG": 18, 
+      "snoozeBG": 28, 
       "recieved": true, 
-      "reason": "Eventual BG 4<110, setting -1.606U/hr", 
+      "reason": "Eventual BG 22<110, setting -1.383U/hr", 
       "rate": 0, 
-      "eventualBG": 4, 
-      "timestamp": "2016-01-01T04:25:38.000Z", 
+      "eventualBG": 22, 
+      "timestamp": "2016-01-01T04:30:52.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 100 Boluses: 2.8 Target: 115 Deviation: 9 BGI: -13.63", 
-      "tick": -26
+      "mealAssist": "Off: Carbs: 100 Boluses: 2.8 Target: 115 Deviation: 5 BGI: -12.64", 
+      "tick": -5
     }
   }
 }
