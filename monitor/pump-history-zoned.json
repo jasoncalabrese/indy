@@ -1,5 +1,76 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2000-01-01T00:54:25 head[4], body[0] op[0x01]", 
+    "timestamp": "2000-01-01T00:54:25-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0e5027c00c53d01867d04c7bd0", 
+        "data": [
+          {
+            "amount": 2.0, 
+            "age": 39
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 339
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 359
+          }, 
+          {
+            "amount": 1.9, 
+            "age": 379
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.9, 
+    "duration": 0, 
+    "amount": 0.9, 
+    "_head": "01090900", 
+    "type": "normal", 
+    "_date": "1976400110"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 363, 
+    "_byte[5]": 27, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2000-01-01T00:54:25 head[2], body[13] op[0x5b]", 
+    "timestamp": "2000-01-01T00:54:25-08:00", 
+    "_body": "0051115a731b00000012000978", 
+    "bg_target_high": 120, 
+    "sensitivity": 90, 
+    "carb_ratio": 17, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 1.8, 
+    "correction_estimate": 1.1, 
+    "carb_input": 0, 
+    "_head": "5b6b", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 0.9, 
+    "_date": "1976000110", 
+    "bg_target_low": 115
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2000-01-01T00:54:16 head[2], body[0] op[0x0a]", 
+    "timestamp": "2000-01-01T00:54:16-08:00", 
+    "_body": "", 
+    "_head": "0a6b", 
+    "amount": 363, 
+    "_date": "1076200190"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2000-01-01T00:35:04 head[2], body[0] op[0x16]", 
     "timestamp": "2000-01-01T00:35:04-08:00", 
