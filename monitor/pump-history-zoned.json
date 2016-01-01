@@ -1,5 +1,76 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-01T05:07:13 head[4], body[0] op[0x01]", 
+    "timestamp": "2016-01-01T05:07:13-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c0e0ce8c002fcc02206d05024d0", 
+        "data": [
+          {
+            "amount": 0.3, 
+            "age": 232
+          }, 
+          {
+            "amount": 0.05, 
+            "age": 252
+          }, 
+          {
+            "amount": 0.85, 
+            "age": 262
+          }, 
+          {
+            "amount": 2.0, 
+            "age": 292
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 1.0, 
+    "duration": 0, 
+    "amount": 1.0, 
+    "_head": "010a0a00", 
+    "type": "normal", 
+    "_date": "0d47450110"
+  }, 
+  {
+    "unknown_byte[8]": 0, 
+    "_type": "BolusWizard", 
+    "bg": 212, 
+    "_byte[5]": 10, 
+    "unknown_byte[10]": 0, 
+    "_description": "BolusWizard 2016-01-01T05:07:13 head[2], body[13] op[0x5b]", 
+    "timestamp": "2016-01-01T05:07:13-08:00", 
+    "_body": "0050115a730a00000000000a78", 
+    "bg_target_high": 120, 
+    "sensitivity": 90, 
+    "carb_ratio": 17, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 1.0, 
+    "carb_input": 0, 
+    "_head": "5bd4", 
+    "unabsorbed_insulin_count": "??", 
+    "_byte[7]": 0, 
+    "bolus_estimate": 1.0, 
+    "_date": "0d47050110", 
+    "bg_target_low": 115
+  }, 
+  {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-01-01T05:07:04 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-01T05:07:04-08:00", 
+    "_body": "", 
+    "_head": "0ad4", 
+    "amount": 212, 
+    "_date": "0447250110"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-01T04:45:15 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-01T04:45:15-08:00", 
