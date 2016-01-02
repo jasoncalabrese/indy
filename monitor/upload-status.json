@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-02T10:21:34.000Z", 
+      "timestamp": "2016-01-02T10:26:41.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 99.7, 
-    "clock": "2016-01-02T02:20:37-08:00"
+    "clock": "2016-01-02T02:25:37-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 145, 
+      "bg": 140, 
       "temp": "absolute", 
-      "snoozeBG": 111, 
-      "timestamp": "2016-01-02T10:20:27.000Z", 
-      "reason": "Eventual BG 111<115, temp 0.125 ~< req 0.256U/hr", 
-      "eventualBG": 111, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -4 BGI: -1.98", 
-      "tick": -4
+      "snoozeBG": 105, 
+      "timestamp": "2016-01-02T10:25:27.000Z", 
+      "rate": 0.1, 
+      "reason": "Eventual BG 105<115, setting 0.122U/hr", 
+      "eventualBG": 105, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -7 BGI: -2.12", 
+      "tick": -5
     }, 
     "iob": {
-      "timestamp": "2016-01-02T10:20:26.000Z", 
+      "timestamp": "2016-01-02T10:25:26.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.331, 
-      "iob": 0.331, 
-      "activity": 0.0044
+      "basaliob": 0.307, 
+      "iob": 0.307, 
+      "activity": 0.0047
     }, 
     "enacted": {
-      "bg": 159, 
+      "bg": 140, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
+      "snoozeBG": 105, 
       "recieved": true, 
-      "reason": "Eventual BG 107<115, setting 0.167U/hr", 
-      "rate": 0.125, 
-      "eventualBG": 107, 
-      "timestamp": "2016-01-02T09:54:47.000Z", 
+      "reason": "Eventual BG 105<115, setting 0.122U/hr", 
+      "rate": 0.1, 
+      "eventualBG": 105, 
+      "timestamp": "2016-01-02T10:25:45.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -2 BGI: -0.76", 
-      "tick": -7
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -7 BGI: -2.12", 
+      "tick": -5
     }
   }
 }
