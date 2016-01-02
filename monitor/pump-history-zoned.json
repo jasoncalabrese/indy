@@ -1,6 +1,42 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-01-02T00:00:15 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-02T00:00:15-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "0f40004210"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-02T00:00:15 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-02T00:00:15-08:00", 
+    "_body": "00", 
+    "_head": "3316", 
+    "rate": 0.55, 
+    "_date": "0f40004210"
+  }, 
+  {
+    "_type": "Model522ResultTotals", 
+    "_description": "Model522ResultTotals 2016-01-02T00:00:00 head[1], body[41] op[0x6d]", 
+    "timestamp": "2016-01-02T00:00:00-08:00", 
+    "_body": "0510e2546b080000049c02843702182d006902182d00cc2600c8250084190f030500070c00e8000000", 
+    "_head": "6d", 
+    "_date": "0190"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-01-02T00:00:00 head[5], body[0] op[0x07]", 
+    "timestamp": "2016-01-02T00:00:00-08:00", 
+    "_body": "", 
+    "_head": "070000049c", 
+    "valid_date": "2016-01-01", 
+    "_date": "0190"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-01T23:50:07 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-01T23:50:07-08:00", 
     "_body": "", 
@@ -638,43 +674,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "3041124110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-01T18:00:11 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-01T18:00:11-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "0b40124110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-01T18:00:11 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-01T18:00:11-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "0b40124110"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-01T17:55:05 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-01T17:55:05-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "0577114110"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-01T17:55:05 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-01T17:55:05-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "0577114110"
   }
 ]
