@@ -1,5 +1,41 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-01-02T20:11:44 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-01-02T20:11:44-08:00", 
+    "_body": "", 
+    "_head": "0a63", 
+    "amount": 99, 
+    "_date": "2c4b340210"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-01-02T20:10:25 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-02T20:10:25-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "194a144210"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-02T20:10:25 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-02T20:10:25-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "194a144210"
+  }, 
+  {
+    "_type": "ChangeAlarmNotifyMode", 
+    "_description": "ChangeAlarmNotifyMode 2016-01-02T20:07:16 head[2], body[0] op[0x63]", 
+    "timestamp": "2016-01-02T20:07:16-08:00", 
+    "_body": "", 
+    "_head": "6303", 
+    "_date": "1047140210"
+  }, 
+  {
     "_type": "ChangeAlarmNotifyMode", 
     "_description": "ChangeAlarmNotifyMode 2016-01-02T20:05:41 head[2], body[0] op[0x63]", 
     "timestamp": "2016-01-02T20:05:41-08:00", 
@@ -866,24 +902,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "11510e4210"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-02T14:10:05 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-02T14:10:05-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "054a0e4210"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-02T14:10:05 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-02T14:10:05-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "054a0e4210"
   }
 ]
