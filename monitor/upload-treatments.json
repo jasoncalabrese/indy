@@ -1,31 +1,57 @@
 [
   {
-    "duration": "30",
-    "raw_duration": {
-      "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2016-01-03T10:00:17 head[2], body[0] op[0x16]",
-      "timestamp": "2016-01-03T10:00:17-08:00",
-      "_body": "",
-      "_head": "1601",
-      "duration (min)": 30,
-      "_date": "11400a4310"
-    },
-    "timestamp": "2016-01-03T10:00:17-08:00",
-    "absolute": "0.1",
-    "rate": 0.1,
-    "raw_rate": {
-      "_type": "TempBasal",
-      "temp": "absolute",
-      "_description": "TempBasal 2016-01-03T10:00:17 head[2], body[1] op[0x33]",
-      "timestamp": "2016-01-03T10:00:17-08:00",
-      "_body": "00",
-      "_head": "3304",
-      "rate": 0.1,
-      "_date": "11400a4310"
-    },
-    "eventType": "Temp Basal",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2016-01-03T10:00:17-08:00",
-    "enteredBy": "openaps://medtronic/522"
+    "_type": "Prime",
+    "_description": "Prime 2016-01-03T10:28:00 head[5], body[0] op[0x03]",
+    "timestamp": "2016-01-03T10:28:00-08:00",
+    "_body": "",
+    "_head": "0300070007",
+    "amount": 0.7,
+    "fixed": 0.7,
+    "type": "fixed",
+    "_date": "005c0a0310",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime",
+    "created_at": "2016-01-03T10:28:00-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "Prime 522 "
+  },
+  {
+    "_type": "Battery",
+    "_description": "Battery 2016-01-03T10:27:44 head[2], body[0] op[0x1a]",
+    "timestamp": "2016-01-03T10:27:44-08:00",
+    "_body": "",
+    "_head": "1a01",
+    "_date": "2c5b0a0310",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery",
+    "created_at": "2016-01-03T10:27:44-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "Battery 522 "
+  },
+  {
+    "_type": "Battery",
+    "_description": "Battery 2016-01-03T10:27:11 head[2], body[0] op[0x1a]",
+    "timestamp": "2016-01-03T10:27:11-08:00",
+    "_body": "",
+    "_head": "1a00",
+    "_date": "0b5b0a0310",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery",
+    "created_at": "2016-01-03T10:27:11-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "Battery 522 "
+  },
+  {
+    "_type": "LowBattery",
+    "_description": "LowBattery 2016-01-03T10:01:00 head[2], body[0] op[0x19]",
+    "timestamp": "2016-01-03T10:01:00-08:00",
+    "_body": "",
+    "_head": "1900",
+    "_date": "00410a0310",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/LowBattery",
+    "created_at": "2016-01-03T10:01:00-08:00",
+    "enteredBy": "openaps://medtronic/522",
+    "eventType": "Note",
+    "notes": "LowBattery 522 "
   }
 ]
