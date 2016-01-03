@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-03T19:42:39.000Z", 
+      "timestamp": "2016-01-03T19:46:36.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 62.2, 
-    "clock": "2016-01-03T11:41:36-08:00"
+    "reservoir": 61.9, 
+    "clock": "2016-01-03T11:45:35-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 151, 
+      "bg": 153, 
       "temp": "absolute", 
-      "snoozeBG": 124, 
-      "timestamp": "2016-01-03T19:40:40.000Z", 
-      "rate": 0.7, 
-      "reason": "Eventual BG 124>=120, no temp, setting 0.68U/hr", 
-      "eventualBG": 124, 
+      "snoozeBG": 130, 
+      "timestamp": "2016-01-03T19:45:36.000Z", 
+      "rate": 0.85, 
+      "reason": "Eventual BG 130>=120, temp 0.675<0.833U/hr", 
+      "eventualBG": 130, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.3 Target: 115 Deviation: 14 BGI: -5.22", 
-      "tick": "+3"
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.3 Target: 115 Deviation: 17 BGI: -4.63", 
+      "tick": "+2"
     }, 
     "iob": {
-      "timestamp": "2016-01-03T19:40:39.000Z", 
+      "timestamp": "2016-01-03T19:45:36.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.188, 
-      "iob": 0.459, 
-      "activity": 0.0116
+      "basaliob": 0.237, 
+      "iob": 0.446, 
+      "activity": 0.0103
     }, 
     "enacted": {
-      "bg": 151, 
+      "bg": 153, 
       "temp": "absolute", 
-      "snoozeBG": 124, 
+      "snoozeBG": 130, 
       "recieved": true, 
-      "reason": "Eventual BG 124>=120, no temp, setting 0.68U/hr", 
-      "rate": 0.675, 
-      "eventualBG": 124, 
-      "timestamp": "2016-01-03T19:40:57.000Z", 
+      "reason": "Eventual BG 130>=120, temp 0.675<0.833U/hr", 
+      "rate": 0.85, 
+      "eventualBG": 130, 
+      "timestamp": "2016-01-03T19:45:54.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 24 Boluses: 2.3 Target: 115 Deviation: 14 BGI: -5.22", 
-      "tick": "+3"
+      "mealAssist": "Off: Carbs: 24 Boluses: 2.3 Target: 115 Deviation: 17 BGI: -4.63", 
+      "tick": "+2"
     }
   }
 }
