@@ -6,45 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-03T06:26:40.000Z", 
+      "timestamp": "2016-01-03T06:32:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 75, 
-    "clock": "2016-01-02T22:25:35-08:00"
+    "reservoir": 74.8, 
+    "clock": "2016-01-02T22:31:36-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 106, 
+      "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 144, 
-      "timestamp": "2016-01-03T06:25:37.000Z", 
-      "rate": 1.7, 
-      "reason": "Eventual BG 178>=120, temp 1.5<1.678U/hr", 
-      "eventualBG": 178, 
+      "snoozeBG": 158, 
+      "timestamp": "2016-01-03T06:30:47.000Z", 
+      "rate": 2, 
+      "reason": "Eventual BG 196>=120, temp 1.7<1.989U/hr", 
+      "eventualBG": 196, 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 32 Boluses: 1.7 Target: 100 Deviation: 34 BGI: -2.2", 
-      "tick": "+10"
+      "mealAssist": "On: Carbs: 32 Boluses: 1.7 Target: 100 Deviation: 38 BGI: -1.89", 
+      "tick": "+13"
     }, 
     "iob": {
-      "timestamp": "2016-01-03T06:25:36.000Z", 
+      "timestamp": "2016-01-03T06:30:46.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.29, 
-      "iob": -0.048, 
-      "activity": 0.0049
+      "basaliob": -0.22, 
+      "iob": -0.014, 
+      "activity": 0.0042
     }, 
     "enacted": {
-      "bg": 106, 
+      "bg": 119, 
       "temp": "absolute", 
-      "snoozeBG": 144, 
+      "snoozeBG": 158, 
       "recieved": true, 
-      "reason": "Eventual BG 178>=120, temp 1.5<1.678U/hr", 
-      "rate": 1.7, 
-      "eventualBG": 178, 
-      "timestamp": "2016-01-03T06:25:54.000Z", 
+      "reason": "Eventual BG 196>=120, temp 1.7<1.989U/hr", 
+      "rate": 2, 
+      "eventualBG": 196, 
+      "timestamp": "2016-01-03T06:31:05.000Z", 
       "duration": 30, 
-      "mealAssist": "On: Carbs: 32 Boluses: 1.7 Target: 100 Deviation: 34 BGI: -2.2", 
-      "tick": "+10"
+      "mealAssist": "On: Carbs: 32 Boluses: 1.7 Target: 100 Deviation: 38 BGI: -1.89", 
+      "tick": "+13"
     }
   }
 }
