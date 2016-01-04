@@ -1,0 +1,50 @@
+{
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.54
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-01-04T02:28:38.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 55.7, 
+    "clock": "2016-01-03T18:27:36-08:00"
+  }, 
+  "openaps": {
+    "suggested": {
+      "bg": 104, 
+      "temp": "absolute", 
+      "snoozeBG": 74, 
+      "timestamp": "2016-01-04T02:27:07.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 74<110, setting -1.322U/hr", 
+      "eventualBG": 74, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: -31 BGI: -2.88", 
+      "tick": -7
+    }, 
+    "iob": {
+      "timestamp": "2016-01-04T02:27:06.000Z", 
+      "bolussnooze": 0, 
+      "basaliob": -0.069, 
+      "iob": -0.016, 
+      "activity": 0.0064
+    }, 
+    "enacted": {
+      "bg": 104, 
+      "temp": "absolute", 
+      "snoozeBG": 74, 
+      "recieved": true, 
+      "reason": "Eventual BG 74<110, setting -1.322U/hr", 
+      "rate": 0, 
+      "eventualBG": 74, 
+      "timestamp": "2016-01-04T02:27:24.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: -31 BGI: -2.88", 
+      "tick": -7
+    }
+  }
+}
