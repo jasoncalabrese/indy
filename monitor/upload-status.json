@@ -15,34 +15,36 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 104, 
+      "bg": 100, 
       "temp": "absolute", 
-      "snoozeBG": 122, 
-      "timestamp": "2016-01-04T10:56:48.000Z", 
-      "reason": "Eventual BG 122>=120, temp 0.65 >~ req 0.6U/hr", 
-      "eventualBG": 122, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 8 BGI: 0.95", 
-      "tick": "+1"
+      "snoozeBG": 115, 
+      "timestamp": "2016-01-04T11:02:04.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 115>115 but Delta -4 < Exp. Delta 0.9; cancel", 
+      "eventualBG": 115, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 6 BGI: 0.81", 
+      "tick": -4
     }, 
     "iob": {
-      "timestamp": "2016-01-04T10:56:48.000Z", 
+      "timestamp": "2016-01-04T11:02:04.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.11, 
-      "iob": -0.11, 
-      "activity": -0.0021
+      "basaliob": -0.101, 
+      "iob": -0.101, 
+      "activity": -0.0018
     }, 
     "enacted": {
-      "bg": 103, 
+      "bg": 100, 
       "temp": "absolute", 
-      "snoozeBG": 124, 
+      "snoozeBG": 115, 
       "recieved": true, 
-      "reason": "Eventual BG 124>=120, temp 0<0.644U/hr", 
-      "rate": 0.65, 
-      "eventualBG": 124, 
-      "timestamp": "2016-01-04T10:52:11.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 6 BGI: 0.99", 
-      "tick": "+11"
+      "reason": "Eventual BG 115>115 but Delta -4 < Exp. Delta 0.9; cancel", 
+      "rate": 0, 
+      "eventualBG": 115, 
+      "timestamp": "2016-01-04T11:02:23.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 6 BGI: 0.81", 
+      "tick": -4
     }
   }
 }
