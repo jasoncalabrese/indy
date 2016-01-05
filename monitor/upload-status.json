@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-05T10:03:35.000Z", 
+      "timestamp": "2016-01-05T10:08:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 104.3, 
-    "clock": "2016-01-05T02:02:36-08:00"
+    "clock": "2016-01-05T02:07:35-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 179, 
+      "bg": 184, 
       "temp": "absolute", 
-      "snoozeBG": 137, 
-      "timestamp": "2016-01-05T10:01:49.000Z", 
-      "reason": "Eventual BG 137>=120, temp 0.8 >~ req 0.833U/hr", 
-      "eventualBG": 137, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.9 Target: 117.5 Deviation: 12 BGI: -2.83", 
-      "tick": "+2"
+      "snoozeBG": 147, 
+      "timestamp": "2016-01-05T10:07:01.000Z", 
+      "rate": 1.05, 
+      "reason": "Eventual BG 147>=120, temp 0.8<1.056U/hr", 
+      "eventualBG": 147, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.9 Target: 117.5 Deviation: 15 BGI: -2.83", 
+      "tick": "+5"
     }, 
     "iob": {
-      "timestamp": "2016-01-05T10:01:48.000Z", 
+      "timestamp": "2016-01-05T10:07:00.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.538, 
-      "iob": 0.604, 
+      "basaliob": 0.523, 
+      "iob": 0.573, 
       "activity": 0.0063
     }, 
     "enacted": {
-      "bg": 177, 
+      "bg": 184, 
       "temp": "absolute", 
-      "snoozeBG": 135, 
+      "snoozeBG": 147, 
       "recieved": true, 
-      "reason": "Eventual BG 135>=120, temp 1<0.789U/hr", 
-      "rate": 0.8, 
-      "eventualBG": 135, 
-      "timestamp": "2016-01-05T09:57:20.000Z", 
+      "reason": "Eventual BG 147>=120, temp 0.8<1.056U/hr", 
+      "rate": 1.05, 
+      "eventualBG": 147, 
+      "timestamp": "2016-01-05T10:07:19.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.9 Target: 117.5 Deviation: 11 BGI: -2.88", 
-      "tick": "+0"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.9 Target: 117.5 Deviation: 15 BGI: -2.83", 
+      "tick": "+5"
     }
   }
 }
