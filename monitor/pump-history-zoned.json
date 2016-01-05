@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-01-05T04:11:28 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-05T04:11:28-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "1c4b044510"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-05T04:11:28 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-05T04:11:28-08:00", 
+    "_body": "00", 
+    "_head": "3316", 
+    "rate": 0.55, 
+    "_date": "1c4b044510"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-05T04:01:32 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-05T04:01:32-08:00", 
     "_body": "", 
@@ -405,48 +424,5 @@
     "duration": 0, 
     "type": "normal", 
     "_date": "0958562410"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-01-04T22:09:34 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-01-04T22:09:34-08:00", 
-    "_body": "", 
-    "programmed": 0.3, 
-    "_head": "01030300", 
-    "amount": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "2249562410"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-04T22:06:35 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-04T22:06:35-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "2346164410"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-04T22:06:35 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-04T22:06:35-08:00", 
-    "_body": "00", 
-    "_head": "3354", 
-    "rate": 2.1, 
-    "_date": "2346164410"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-01-04T22:01:42 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-01-04T22:01:42-08:00", 
-    "_body": "", 
-    "programmed": 0.3, 
-    "_head": "01030300", 
-    "amount": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "2a41562410"
   }
 ]
