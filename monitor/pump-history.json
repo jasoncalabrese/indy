@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-01-06T04:31:33 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-06T04:31:33", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "215f044610"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-06T04:31:33 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-06T04:31:33", 
+    "_body": "00", 
+    "_head": "330b", 
+    "rate": 0.275, 
+    "_date": "215f044610"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-01-06T04:06:31 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-06T04:06:31", 
     "_body": "", 
@@ -756,55 +775,5 @@
     "_head": "3320", 
     "rate": 0.8, 
     "_date": "2455174510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 0, 
-    "_description": "TempBasalDuration 2016-01-05T22:26:37 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-05T22:26:37", 
-    "_body": "", 
-    "_head": "1600", 
-    "_date": "255a164510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-05T22:26:37 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-05T22:26:37", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "255a164510"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "duration (min)": 30, 
-    "_description": "TempBasalDuration 2016-01-05T22:21:47 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-05T22:21:47", 
-    "_body": "", 
-    "_head": "1601", 
-    "_date": "2f55164510"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-05T22:21:47 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-05T22:21:47", 
-    "_body": "00", 
-    "_head": "3354", 
-    "rate": 2.1, 
-    "_date": "2f55164510"
-  }, 
-  {
-    "programmed": 0.9, 
-    "_type": "Bolus", 
-    "type": "normal", 
-    "_description": "Bolus 2016-01-05T22:12:44 head[4], body[0] op[0x01]", 
-    "duration": 0, 
-    "timestamp": "2016-01-05T22:12:44", 
-    "_body": "", 
-    "_head": "01090900", 
-    "amount": 0.9, 
-    "_date": "2c4c562510"
   }
 ]
