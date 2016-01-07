@@ -1,30 +1,14 @@
 {
-  "_id": "568e1ab0772b62a43aa57dc7",
-  "duration": "30",
-  "raw_duration": {
-    "_type": "TempBasalDuration",
-    "_description": "TempBasalDuration 2016-01-06T23:56:28 head[2], body[0] op[0x16]",
-    "timestamp": "2016-01-06T23:56:28-08:00",
-    "_body": "",
-    "_head": "1601",
-    "duration (min)": 30,
-    "_date": "1c78174610"
-  },
-  "timestamp": "2016-01-06T23:56:28-08:00",
-  "absolute": "1.3",
-  "rate": 1.3,
-  "raw_rate": {
-    "_type": "TempBasal",
-    "temp": "absolute",
-    "_description": "TempBasal 2016-01-06T23:56:28 head[2], body[1] op[0x33]",
-    "timestamp": "2016-01-06T23:56:28-08:00",
-    "_body": "00",
-    "_head": "3334",
-    "rate": 1.3,
-    "_date": "1c78174610"
-  },
-  "eventType": "Temp Basal",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-  "created_at": "2016-01-06T23:56:28-08:00",
-  "enteredBy": "openaps://medtronic/723"
+  "_id": "568e1bd6772b62a43aa57dcb",
+  "_type": "ChangeTimeDisplay",
+  "_description": "ChangeTimeDisplay 2016-01-07T00:02:27 head[2], body[0] op[0x64]",
+  "timestamp": "2016-01-07T00:02:27-08:00",
+  "_body": "",
+  "_head": "6400",
+  "_date": "1b42000710",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeTimeDisplay",
+  "created_at": "2016-01-07T00:02:27-08:00",
+  "enteredBy": "openaps://medtronic/723",
+  "eventType": "Note",
+  "notes": "ChangeTimeDisplay 723 "
 }
