@@ -1,39 +1,136 @@
 [
   {
-    "_type": "questionable7c", 
-    "_description": "questionable7c 2000-01-06T16:57:17 head[2], body[0] op[0x7c]", 
-    "timestamp": "2000-01-06T16:57:17", 
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-01-06T21:44:29 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-06T21:44:29", 
     "_body": "", 
-    "appended": [
-      {
-        "_body": "", 
-        "_head": "8101", 
-        "_type": "Base", 
-        "_date": "027a100610", 
-        "_description": "Base (2000, 1, 6, 16, 58, 2) head[2], body[0] op[0x81]"
-      }, 
-      {
-        "_body": "", 
-        "_head": "00a2", 
-        "_type": "Base", 
-        "_date": "7708fe7d01", 
-        "_description": "Base (2001, 4, 29, 30, 8, 55) head[2], body[0] op[0x00]"
-      }, 
-      {
-        "_body": "", 
-        "_head": "027a", 
-        "_type": "Base", 
-        "_date": "10061000a2", 
-        "_description": "Base (2002, 0, 0, 16, 6, 16) head[2], body[0] op[0x02]"
-      }, 
-      {
-        "_body": "", 
-        "_head": "7708", 
-        "_type": "Base", 
-        "_date": "fe00000000", 
-        "_description": "Base (2000, 12, 0, 0, 0, 62) head[2], body[0] op[0x77]"
-      }
-    ], 
+    "_head": "1601", 
+    "_date": "1d6c154610"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-06T21:44:29 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-06T21:44:29", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "1d6c154610"
+  }, 
+  {
+    "_type": "NewTimeSet", 
+    "_description": "NewTimeSet 2016-01-06T21:40:00 head[2], body[0] op[0x18]", 
+    "timestamp": "2016-01-06T21:40:00", 
+    "_body": "", 
+    "_head": "1800", 
+    "_date": "0068150610"
+  }, 
+  {
+    "_type": "ChangeTime", 
+    "_description": "ChangeTime 2016-01-06T21:38:42 head[2], body[0] op[0x17]", 
+    "timestamp": "2016-01-06T21:38:42", 
+    "_body": "", 
+    "_head": "1700", 
+    "_date": "2a66150610"
+  }, 
+  {
+    "_type": "ChangeTimeDisplay", 
+    "_description": "ChangeTimeDisplay 2016-01-06T21:38:20 head[2], body[0] op[0x64]", 
+    "timestamp": "2016-01-06T21:38:20", 
+    "_body": "", 
+    "_head": "6400", 
+    "_date": "1466150610"
+  }, 
+  {
+    "_type": "ChangeTempBasalType", 
+    "temp": "absolute", 
+    "_description": "ChangeTempBasalType 2016-01-06T17:24:56 head[2], body[0] op[0x62]", 
+    "timestamp": "2016-01-06T17:24:56", 
+    "_body": "", 
+    "_head": "6200", 
+    "_date": "3858110610"
+  }, 
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2016-01-06T17:24:25 head[2], body[14] op[0x26]", 
+    "timestamp": "2016-01-06T17:24:25", 
+    "_body": "2700000000000028000000000000", 
+    "_head": "2600", 
+    "_date": "1958110610"
+  }, 
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2016-01-06T17:24:15 head[2], body[14] op[0x26]", 
+    "timestamp": "2016-01-06T17:24:15", 
+    "_body": "2700000000000028000000000000", 
+    "_head": "2601", 
+    "_date": "0f58110610"
+  }, 
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2016-01-06T17:19:51 head[2], body[14] op[0x26]", 
+    "timestamp": "2016-01-06T17:19:51", 
+    "_body": "2700000000000028000000000000", 
+    "_head": "2600", 
+    "_date": "3353110610"
+  }, 
+  {
+    "_type": "EnableDisableRemote", 
+    "_description": "EnableDisableRemote 2016-01-06T17:19:50 head[2], body[14] op[0x26]", 
+    "timestamp": "2016-01-06T17:19:50", 
+    "_body": "2700000000000028000000000000", 
+    "_head": "2601", 
+    "_date": "3253110610"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-01-06T17:02:26 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-01-06T17:02:26", 
+    "_body": "000400", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.1, 
+    "_date": "1a42110610"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-01-06T17:02:26 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-01-06T17:02:26", 
+    "_body": "", 
+    "_head": "1a01", 
+    "_date": "1a42110610"
+  }, 
+  {
+    "_type": "Battery", 
+    "_description": "Battery 2016-01-06T17:02:03 head[2], body[0] op[0x1a]", 
+    "timestamp": "2016-01-06T17:02:03", 
+    "_body": "", 
+    "_head": "1a00", 
+    "_date": "0342110610"
+  }, 
+  {
+    "_type": "ChangeOtherDeviceID", 
+    "_description": "ChangeOtherDeviceID 2016-01-06T16:58:02 head[2], body[30] op[0x7d]", 
+    "timestamp": "2016-01-06T16:58:02", 
+    "_body": "00a27708fe00000000000000000000000000000000000000000000000000", 
+    "_head": "7d01", 
+    "_date": "027a100610"
+  }, 
+  {
+    "_type": "ChangeWatchdogMarriageProfile", 
+    "_description": "ChangeWatchdogMarriageProfile 2016-01-06T16:58:02 head[2], body[5] op[0x81]", 
+    "timestamp": "2016-01-06T16:58:02", 
+    "_body": "00a27708fe", 
+    "_head": "8101", 
+    "_date": "027a100610"
+  }, 
+  {
+    "_type": "questionable7c", 
+    "_description": "questionable7c 2016-01-06T16:57:17 head[2], body[0] op[0x7c]", 
+    "timestamp": "2016-01-06T16:57:17", 
+    "_body": "", 
     "_head": "7c01", 
     "_date": "1179100610"
   }
