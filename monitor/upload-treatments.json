@@ -3,42 +3,51 @@
     "duration": "30",
     "raw_duration": {
       "_type": "TempBasalDuration",
-      "_description": "TempBasalDuration 2016-01-06T22:58:48 head[2], body[0] op[0x16]",
-      "timestamp": "2016-01-06T22:58:48-08:00",
+      "_description": "TempBasalDuration 2016-01-06T23:01:38 head[2], body[0] op[0x16]",
+      "timestamp": "2016-01-06T23:01:38-08:00",
       "_body": "",
       "_head": "1601",
       "duration (min)": 30,
-      "_date": "307a164610"
+      "_date": "2641174610"
     },
-    "timestamp": "2016-01-06T22:58:48-08:00",
+    "timestamp": "2016-01-06T23:01:38-08:00",
     "absolute": "0",
     "rate": 0,
     "raw_rate": {
       "_type": "TempBasal",
       "temp": "absolute",
-      "_description": "TempBasal 2016-01-06T22:58:48 head[2], body[1] op[0x33]",
-      "timestamp": "2016-01-06T22:58:48-08:00",
+      "_description": "TempBasal 2016-01-06T23:01:38 head[2], body[1] op[0x33]",
+      "timestamp": "2016-01-06T23:01:38-08:00",
       "_body": "00",
+      "appended": [
+        {
+          "_body": "",
+          "_head": "2000",
+          "_type": "Base",
+          "_date": "0c41170610",
+          "_description": "Base (2016, 1, 6, 23, 1, 12) head[2], body[0] op[0x20]"
+        }
+      ],
       "_head": "3300",
       "rate": 0,
-      "_date": "307a164610"
+      "_date": "2641174610"
     },
     "eventType": "Temp Basal",
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal",
-    "created_at": "2016-01-06T22:58:48-08:00",
+    "created_at": "2016-01-06T23:01:38-08:00",
     "enteredBy": "openaps://medtronic/723"
   },
   {
-    "_type": "JournalEntryOtherMarker",
-    "_description": "JournalEntryOtherMarker 2016-01-06T22:58:04 head[2], body[0] op[0x43]",
-    "timestamp": "2016-01-06T22:58:04-08:00",
+    "_type": "ChangeTimeDisplay",
+    "_description": "ChangeTimeDisplay 2016-01-06T23:00:48 head[2], body[0] op[0x64]",
+    "timestamp": "2016-01-06T23:00:48-08:00",
     "_body": "",
-    "_head": "4300",
-    "_date": "047a160610",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/JournalEntryOtherMarker",
-    "created_at": "2016-01-06T22:58:04-08:00",
+    "_head": "6400",
+    "_date": "3040170610",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeTimeDisplay",
+    "created_at": "2016-01-06T23:00:48-08:00",
     "enteredBy": "openaps://medtronic/723",
     "eventType": "Note",
-    "notes": "JournalEntryOtherMarker 723 "
+    "notes": "ChangeTimeDisplay 723 "
   }
 ]
