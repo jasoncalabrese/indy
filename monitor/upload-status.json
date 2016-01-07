@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-07T10:08:53.000Z", 
+      "timestamp": "2016-01-07T10:10:54.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 183.95, 
-    "clock": "2016-01-07T02:07:44-08:00"
+    "clock": "2016-01-07T02:09:31-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 127, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-01-07T09:57:04.000Z", 
-      "reason": "Eventual BG 123>=120, temp 0.65 >~ req 0.578U/hr", 
-      "eventualBG": 123, 
-      "mealAssist": "Off: Carbs: 10 Boluses: 0 Target: 115 Deviation: 5 BGI: -0.22", 
+      "snoozeBG": 117, 
+      "timestamp": "2016-01-07T10:11:59.000Z", 
+      "rate": 0, 
+      "reason": "117 is in range. No temp required; cancel", 
+      "eventualBG": 117, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 4 BGI: -0.36", 
       "tick": "+1"
     }, 
     "iob": {
-      "timestamp": "2016-01-07T09:57:03.000Z", 
+      "timestamp": "2016-01-07T10:11:58.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.103, 
-      "iob": 0.103, 
-      "activity": 0.0005
+      "basaliob": 0.191, 
+      "iob": 0.191, 
+      "activity": 0.0008
     }, 
     "enacted": {
-      "bg": 122, 
+      "bg": 130, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
+      "snoozeBG": 117, 
       "recieved": true, 
-      "reason": "Eventual BG 126>=120, no temp, setting 0.644U/hr", 
-      "rate": 0.65, 
-      "eventualBG": 126, 
-      "timestamp": "2016-01-07T09:37:29.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 10 Boluses: 0 Target: 115 Deviation: 5 BGI: -0.22", 
-      "tick": "+2"
+      "reason": "117 is in range. No temp required; cancel", 
+      "rate": 0, 
+      "eventualBG": 117, 
+      "timestamp": "2016-01-07T10:12:03.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 4 BGI: -0.36", 
+      "tick": "+1"
     }
   }
 }
