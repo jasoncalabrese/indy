@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-07T23:03:40.000Z", 
+      "timestamp": "2016-01-07T23:08:44.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 177.675, 
-    "clock": "2016-01-07T15:02:32-08:00"
+    "clock": "2016-01-07T15:07:32-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 102, 
-      "timestamp": "2016-01-07T23:01:50.000Z", 
-      "reason": "Eventual BG 102<110, temp 0 ~< req -0.078U/hr", 
-      "eventualBG": 102, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -16 BGI: -0.99", 
-      "tick": -1
+      "snoozeBG": 117, 
+      "timestamp": "2016-01-07T23:06:50.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 117>110 but Avg. Delta -1.67 < Exp. Delta -0.8; cancel", 
+      "eventualBG": 117, 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -6 BGI: -0.72", 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-07T23:01:49.000Z", 
+      "timestamp": "2016-01-07T23:06:50.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.228, 
-      "iob": -0.228, 
-      "activity": 0.0022
+      "basaliob": -0.286, 
+      "iob": -0.286, 
+      "activity": 0.0016
     }, 
     "enacted": {
-      "bg": 98, 
+      "bg": 97, 
       "temp": "absolute", 
-      "snoozeBG": 80, 
+      "snoozeBG": 117, 
       "recieved": true, 
-      "reason": "Eventual BG 80<110, setting -1.056U/hr", 
+      "reason": "Eventual BG 117>110 but Avg. Delta -1.67 < Exp. Delta -0.8; cancel", 
       "rate": 0, 
-      "eventualBG": 80, 
-      "timestamp": "2016-01-07T22:57:07.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -33 BGI: -1.22", 
-      "tick": -4
+      "eventualBG": 117, 
+      "timestamp": "2016-01-07T23:07:08.000Z", 
+      "duration": 0, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: -6 BGI: -0.72", 
+      "tick": "+0"
     }
   }
 }
