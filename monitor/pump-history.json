@@ -1,6 +1,37 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-01-06T20:11:35 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-06T20:11:35", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "234b144610"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-06T20:11:35 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-06T20:11:35", 
+    "_body": "00", 
+    "_head": "3328", 
+    "rate": 1.0, 
+    "_date": "234b144610"
+  }, 
+  {
+    "programmed": 0.6, 
+    "_type": "Bolus", 
+    "type": "normal", 
+    "_description": "Bolus 2016-01-06T20:08:45 head[4], body[0] op[0x01]", 
+    "duration": 0, 
+    "timestamp": "2016-01-06T20:08:45", 
+    "_body": "", 
+    "_head": "01060600", 
+    "amount": 0.6, 
+    "_date": "2d48540610"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "duration (min)": 0, 
     "_description": "TempBasalDuration 2016-01-06T20:06:38 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-06T20:06:38", 
