@@ -6,42 +6,44 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-09T14:32:43.000Z", 
+      "timestamp": "2016-01-09T14:37:42.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 125.1, 
-    "clock": "2016-01-09T06:31:34-08:00"
+    "reservoir": 125, 
+    "clock": "2016-01-09T06:36:34-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 114, 
+      "bg": 118, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-01-09T14:31:29.000Z", 
-      "reason": "Eventual BG 123>=120, temp 0.65 >~ req 0.522U/hr", 
-      "eventualBG": 123, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 2 BGI: 1.98", 
-      "tick": "+3"
+      "snoozeBG": 139, 
+      "timestamp": "2016-01-09T14:36:34.000Z", 
+      "rate": 1.05, 
+      "reason": "Eventual BG 139>=120, temp 0.65<1.028U/hr", 
+      "eventualBG": 139, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 0 BGI: 2.97", 
+      "tick": "+4"
     }, 
     "iob": {
-      "timestamp": "2016-01-09T14:31:29.000Z", 
+      "timestamp": "2016-01-09T14:36:34.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.077, 
-      "iob": -0.077, 
-      "activity": -0.0044
+      "basaliob": -0.232, 
+      "iob": -0.232, 
+      "activity": -0.0066
     }, 
     "enacted": {
-      "bg": 102, 
+      "bg": 118, 
       "temp": "absolute", 
-      "snoozeBG": 129, 
+      "snoozeBG": 139, 
       "recieved": true, 
-      "reason": "Eventual BG 129>=120, no temp, setting 0.656U/hr", 
-      "rate": 0.65, 
-      "eventualBG": 129, 
-      "timestamp": "2016-01-09T14:12:02.000Z", 
+      "reason": "Eventual BG 139>=120, temp 0.65<1.028U/hr", 
+      "rate": 1.05, 
+      "eventualBG": 139, 
+      "timestamp": "2016-01-09T14:36:52.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 2 BGI: 2.34", 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 0 BGI: 2.97", 
       "tick": "+4"
     }
   }
