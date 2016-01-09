@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-09T23:04:34.000Z", 
+      "timestamp": "2016-01-09T23:14:38.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 112.2, 
-    "clock": "2016-01-09T15:03:34-08:00"
+    "reservoir": 111.3, 
+    "clock": "2016-01-09T15:13:32-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 62, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 94, 
-      "timestamp": "2016-01-09T23:02:47.000Z", 
-      "reason": "BG 62<80, delta 18>0; no high-temp to cancel", 
-      "eventualBG": 96, 
-      "mealAssist": "On: Carbs: 39 Boluses: 2.2 Target: 100 Deviation: 34 BGI: -3.73", 
+      "snoozeBG": 156, 
+      "timestamp": "2016-01-09T23:13:37.000Z", 
+      "rate": 1.75, 
+      "reason": "Eventual BG 176>=120, temp 0<1.744U/hr", 
+      "eventualBG": 176, 
+      "duration": 30, 
+      "mealAssist": "On: Carbs: 39 Boluses: 2.2 Target: 100 Deviation: 73 BGI: -4.54", 
       "tick": "+18"
     }, 
     "iob": {
-      "timestamp": "2016-01-09T23:02:46.000Z", 
-      "bolussnooze": 0.726, 
-      "basaliob": -0.659, 
-      "iob": 1.106, 
-      "activity": 0.0083
+      "timestamp": "2016-01-09T23:13:36.000Z", 
+      "bolussnooze": 0.522, 
+      "basaliob": -0.661, 
+      "iob": 0.996, 
+      "activity": 0.0101
     }, 
     "enacted": {
-      "bg": 39, 
+      "bg": 103, 
       "temp": "absolute", 
-      "snoozeBG": 81, 
+      "snoozeBG": 156, 
       "recieved": true, 
-      "reason": "BG 39<80", 
-      "rate": 0, 
-      "eventualBG": -73, 
-      "timestamp": "2016-01-09T22:52:31.000Z", 
+      "reason": "Eventual BG 176>=120, temp 0<1.744U/hr", 
+      "rate": 1.75, 
+      "eventualBG": 176, 
+      "timestamp": "2016-01-09T23:13:54.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 39 Boluses: 2.2 Target: 115 Deviation: -1 BGI: -2.47", 
-      "tick": "+0"
+      "mealAssist": "On: Carbs: 39 Boluses: 2.2 Target: 100 Deviation: 73 BGI: -4.54", 
+      "tick": "+18"
     }
   }
 }
