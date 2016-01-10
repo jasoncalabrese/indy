@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-10T18:57:38.000Z", 
+      "timestamp": "2016-01-10T19:02:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 94.9, 
-    "clock": "2016-01-10T10:56:34-08:00"
+    "clock": "2016-01-10T11:01:33-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 117, 
       "temp": "absolute", 
       "snoozeBG": 84, 
-      "timestamp": "2016-01-10T18:56:16.000Z", 
-      "reason": "Eventual BG 68<110, but Avg. Delta 2.33 > Exp. Delta -6.3; no temp to cancel", 
-      "eventualBG": 68, 
-      "mealAssist": "Off: Carbs: 12 Boluses: 2 Target: 115 Deviation: 30 BGI: -7.6", 
-      "tick": "+2"
+      "timestamp": "2016-01-10T19:01:16.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 75<110, setting -0.828U/hr", 
+      "eventualBG": 75, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 12 Boluses: 2 Target: 115 Deviation: 29 BGI: -7.96", 
+      "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-10T18:56:15.000Z", 
-      "bolussnooze": 0.121, 
-      "basaliob": -0.201, 
-      "iob": 0.878, 
-      "activity": 0.0169
+      "timestamp": "2016-01-10T19:01:16.000Z", 
+      "bolussnooze": 0.064, 
+      "basaliob": -0.187, 
+      "iob": 0.789, 
+      "activity": 0.0177
     }, 
     "enacted": {
-      "bg": 98, 
+      "bg": 117, 
       "temp": "absolute", 
-      "snoozeBG": 164, 
+      "snoozeBG": 84, 
       "recieved": true, 
-      "reason": "Eventual BG -36<110+1, and temp 0 < basal 0.55", 
+      "reason": "Eventual BG 75<110, setting -0.828U/hr", 
       "rate": 0, 
-      "eventualBG": -36, 
-      "timestamp": "2016-01-10T18:06:34.000Z", 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 12 Boluses: 2 Target: 115 Deviation: 12 BGI: -4.63", 
-      "tick": "+1"
+      "eventualBG": 75, 
+      "timestamp": "2016-01-10T19:01:34.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 12 Boluses: 2 Target: 115 Deviation: 29 BGI: -7.96", 
+      "tick": "+0"
     }
   }
 }
