@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-10T06:33:47.000Z", 
+      "timestamp": "2016-01-10T06:38:45.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 143.575, 
-    "clock": "2016-01-09T22:32:39-08:00"
+    "reservoir": 143.475, 
+    "clock": "2016-01-09T22:37:33-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 163, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-01-10T06:32:11.000Z", 
-      "reason": "Eventual BG 123>=120, temp 0.925 >~ req 0.82U/hr", 
-      "eventualBG": 123, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 10 BGI: -4.54", 
-      "tick": "+0"
+      "snoozeBG": 124, 
+      "timestamp": "2016-01-10T06:37:17.000Z", 
+      "rate": 0.8, 
+      "reason": "Eventual BG 124>=120, temp 0.925<0.82U/hr", 
+      "eventualBG": 124, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 8 BGI: -4.5", 
+      "tick": -2
     }, 
     "iob": {
-      "timestamp": "2016-01-10T06:32:10.000Z", 
+      "timestamp": "2016-01-10T06:37:17.000Z", 
       "bolussnooze": 0, 
-      "basaliob": 0.554, 
-      "iob": 0.554, 
-      "activity": 0.0101
+      "basaliob": 0.503, 
+      "iob": 0.503, 
+      "activity": 0.01
     }, 
     "enacted": {
-      "bg": 164, 
+      "bg": 161, 
       "temp": "absolute", 
-      "snoozeBG": 126, 
+      "snoozeBG": 124, 
       "recieved": true, 
-      "reason": "Eventual BG 126>=120, temp 0.5<0.944U/hr", 
-      "rate": 0.925, 
-      "eventualBG": 126, 
-      "timestamp": "2016-01-10T06:06:58.000Z", 
+      "reason": "Eventual BG 124>=120, temp 0.925<0.82U/hr", 
+      "rate": 0.8, 
+      "eventualBG": 124, 
+      "timestamp": "2016-01-10T06:37:36.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 20 BGI: -3.87", 
-      "tick": "+5"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 8 BGI: -4.5", 
+      "tick": -2
     }
   }
 }
