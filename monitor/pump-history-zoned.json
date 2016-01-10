@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-01-09T17:55:02 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-01-09T17:55:02-08:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "0277114910"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-01-09T17:55:02 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-01-09T17:55:02-08:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "0277114910"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-09T17:46:00 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-09T17:46:00-08:00", 
     "_body": "", 
@@ -646,55 +665,5 @@
     "_head": "330b", 
     "rate": 0.275, 
     "_date": "1b640c4910"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-09T11:51:13 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-09T11:51:13-08:00", 
-    "_body": "", 
-    "_head": "1600", 
-    "duration (min)": 0, 
-    "_date": "0d730b4910"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-09T11:51:13 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-09T11:51:13-08:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "0d730b4910"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-01-09T11:46:30 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-01-09T11:46:30-08:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "1e6e0b4910"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-01-09T11:46:30 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-01-09T11:46:30-08:00", 
-    "_body": "00", 
-    "_head": "3316", 
-    "rate": 0.55, 
-    "_date": "1e6e0b4910"
-  }, 
-  {
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-01-09T11:46:19 head[4], body[0] op[0x01]", 
-    "timestamp": "2016-01-09T11:46:19-08:00", 
-    "_body": "", 
-    "programmed": 0.3, 
-    "_head": "01030300", 
-    "amount": 0.3, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "136e4b0910"
   }
 ]
