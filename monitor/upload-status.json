@@ -6,44 +6,44 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-10T09:17:42.000Z", 
+      "timestamp": "2016-01-10T09:22:49.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 101.6, 
-    "clock": "2016-01-10T01:16:33-08:00"
+    "clock": "2016-01-10T01:21:33-08:00"
   }, 
   "openaps": {
     "suggested": {
       "bg": 116, 
       "temp": "absolute", 
-      "snoozeBG": 120, 
-      "timestamp": "2016-01-10T09:16:26.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 120>115 but Delta +0 < Exp. Delta 1; cancel", 
-      "eventualBG": 120, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 1 BGI: 1.08", 
+      "snoozeBG": 114, 
+      "timestamp": "2016-01-10T09:21:20.000Z", 
+      "rate": 0.25, 
+      "reason": "Eventual BG 114<115, setting 0.244U/hr", 
+      "eventualBG": 114, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -4 BGI: 0.99", 
       "tick": "+0"
     }, 
     "iob": {
-      "timestamp": "2016-01-10T09:16:25.000Z", 
+      "timestamp": "2016-01-10T09:21:19.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.028, 
-      "iob": -0.028, 
-      "activity": -0.0024
+      "basaliob": -0.017, 
+      "iob": -0.017, 
+      "activity": -0.0022
     }, 
     "enacted": {
       "bg": 116, 
       "temp": "absolute", 
-      "snoozeBG": 120, 
+      "snoozeBG": 114, 
       "recieved": true, 
-      "reason": "Eventual BG 120>115 but Delta +0 < Exp. Delta 1; cancel", 
-      "rate": 0, 
-      "eventualBG": 120, 
-      "timestamp": "2016-01-10T09:16:44.000Z", 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: 1 BGI: 1.08", 
+      "reason": "Eventual BG 114<115, setting 0.244U/hr", 
+      "rate": 0.25, 
+      "eventualBG": 114, 
+      "timestamp": "2016-01-10T09:21:38.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 117.5 Deviation: -4 BGI: 0.99", 
       "tick": "+0"
     }
   }
