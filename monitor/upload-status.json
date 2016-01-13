@@ -6,32 +6,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-13T21:58:37.000Z", 
+      "timestamp": "2016-01-13T22:02:34.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 117.475, 
-    "clock": "2016-01-13T13:57:35-08:00"
+    "reservoir": 117.45, 
+    "clock": "2016-01-13T14:01:35-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 185, 
+      "bg": 181, 
       "temp": "absolute", 
-      "snoozeBG": 174, 
-      "timestamp": "2016-01-13T21:56:45.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 104<110-2, and temp 1.35 > basal 0.5", 
-      "eventualBG": 104, 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: 6 BGI: -0.99", 
-      "tick": -2
+      "snoozeBG": 144, 
+      "timestamp": "2016-01-13T22:01:31.000Z", 
+      "reason": "Eventual BG 84<110, bolus snooze: eventual BG range 84-144", 
+      "eventualBG": 84, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0.6 Target: 115 Deviation: -4 BGI: -1.71", 
+      "tick": -4
     }, 
     "iob": {
-      "timestamp": "2016-01-13T21:56:44.000Z", 
-      "bolussnooze": 0.521, 
-      "basaliob": 0.392, 
-      "iob": 0.97, 
-      "activity": 0.0022
+      "timestamp": "2016-01-13T22:01:30.000Z", 
+      "bolussnooze": 0.442, 
+      "basaliob": 0.479, 
+      "iob": 1.036, 
+      "activity": 0.0038
     }, 
     "enacted": {
       "bg": 185, 
