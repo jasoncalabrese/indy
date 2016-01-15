@@ -1,13 +1,11 @@
 [
   {
-    "carbs": "55",
-    "ratio": "16",
-    "wizard": {
-      "_type": "BolusWizard",
-      "bg": 0,
-      "_description": "BolusWizard 2016-01-14T20:36:24 head[2], body[15] op[0x5b]",
+    "duration": "0",
+    "bolus": {
+      "_type": "Bolus",
+      "_description": "Bolus 2016-01-14T20:36:24 head[8], body[0] op[0x01]",
       "timestamp": "2016-01-14T20:36:24-08:00",
-      "_body": "375000a05a6e000088000000008878",
+      "_body": "",
       "appended": [
         {
           "_type": "UnabsorbedInsulinBolus",
@@ -31,9 +29,27 @@
           "_date": ""
         }
       ],
+      "programmed": 2.5,
+      "duration": 0,
+      "amount": 2.5,
+      "unabsorbed": 0.05,
+      "_head": "0100640064000200",
+      "type": "normal",
+      "_date": "1864340e10"
+    },
+    "timestamp": "2016-01-14T20:36:24-08:00",
+    "created_at": "2016-01-14T20:36:24-08:00",
+    "carbs": "55",
+    "ratio": "16",
+    "wizard": {
+      "_type": "BolusWizard",
+      "bg": 0,
+      "_description": "BolusWizard 2016-01-14T20:36:24 head[2], body[15] op[0x5b]",
+      "timestamp": "2016-01-14T20:36:24-08:00",
+      "_body": "375000a05a6e000088000000008878",
+      "carb_input": 55,
       "bg_target_high": 120,
       "sensitivity": 90,
-      "carb_input": 55,
       "carb_ratio": 16,
       "food_estimate": 3.4,
       "unabsorbed_insulin_total": 0,
@@ -43,12 +59,10 @@
       "bolus_estimate": 3.4,
       "_date": "1864140e10"
     },
-    "timestamp": "2016-01-14T20:36:24-08:00",
-    "created_at": "2016-01-14T20:36:24-08:00",
-    "eventType": "Carb Correction",
-    "insulin": 0,
-    "notes": "Food estimate 3.4\nCorrection estimate 0\nBolus estimate 3.4\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0",
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Carb Correction",
+    "eventType": "<none>",
+    "insulin": "2.5",
+    "notes": "Normal bolus with wizard.\nProgrammed bolus 2.5\nDelivered bolus 2.5\nPercent delivered:  100%\nFood estimate 3.4\nCorrection estimate 0\nBolus estimate 3.4\nTarget low 110\nTarget high 120\nHypothetical glucose delta -225",
+    "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
     "enteredBy": "openaps://medtronic/723"
   }
 ]
