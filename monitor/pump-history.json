@@ -1,5 +1,46 @@
 [
   {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-01-14T20:36:24 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-01-14T20:36:24", 
+    "_body": "375000a05a6e000088000000008878", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "1864140e10", 
+    "bolus_estimate": 3.4, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[11], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 168
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 188
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 248
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0b18a8c00cbcc00cf8c0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 110, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 3.4, 
+    "carb_input": 55, 
+    "sensitivity": 90
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-01-14T20:31:48 head[2], body[0] op[0x16]", 
@@ -554,18 +595,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "1c4a0f4e10"
-  }, 
-  {
-    "_type": "ChangeParadigmLinkID", 
-    "links": [
-      "a76839", 
-      "c23647", 
-      "000000"
-    ], 
-    "_description": "ChangeParadigmLinkID 2016-01-14T14:32:39 head[2], body[14] op[0x3c]", 
-    "timestamp": "2016-01-14T14:32:39", 
-    "_body": "3da76839c236473e000000000000", 
-    "_head": "3c01", 
-    "_date": "27600e0e10"
   }
 ]
