@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-16T06:05:58.000Z", 
+      "timestamp": "2016-01-16T06:07:47.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 69.575, 
-    "clock": "2016-01-15T22:04:35-08:00"
+    "reservoir": 69.55, 
+    "clock": "2016-01-15T22:06:35-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 137, 
+      "bg": 116, 
       "temp": "absolute", 
-      "snoozeBG": 125, 
-      "timestamp": "2016-01-16T05:31:55.000Z", 
-      "reason": "Eventual BG 45<110, bolus snooze: eventual BG range 45-125", 
-      "eventualBG": 45, 
-      "mealAssist": "Off: Carbs: 100 Boluses: 3.95 Target: 115 Deviation: 40 BGI: -12.73", 
-      "tick": -1
+      "snoozeBG": 94, 
+      "timestamp": "2016-01-16T06:08:17.000Z", 
+      "rate": 0, 
+      "reason": "Eventual BG 57<110, setting -0.233U/hr", 
+      "eventualBG": 57, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 100 Boluses: 3.65 Target: 115 Deviation: -1 BGI: -7.47", 
+      "tick": -15
     }, 
     "iob": {
-      "timestamp": "2016-01-16T05:31:55.000Z", 
-      "bolussnooze": 0.594, 
-      "basaliob": -0.165, 
-      "iob": 1.465, 
-      "activity": 0.0283
+      "timestamp": "2016-01-16T06:08:17.000Z", 
+      "bolussnooze": 0.272, 
+      "basaliob": -0.144, 
+      "iob": 0.645, 
+      "activity": 0.0166
     }, 
     "enacted": {
-      "bg": 130, 
+      "bg": 116, 
       "temp": "absolute", 
-      "snoozeBG": 48, 
+      "snoozeBG": 94, 
       "recieved": true, 
-      "reason": "48 < 120; cancel", 
+      "reason": "Eventual BG 57<110, setting -0.233U/hr", 
       "rate": 0, 
-      "eventualBG": 179, 
-      "timestamp": "2016-01-16T05:11:45.000Z", 
-      "duration": 0, 
-      "mealAssist": "On: Carbs: 100 Boluses: 3.35 Target: 100 Deviation: 49 BGI: -15.16", 
-      "tick": "+5"
+      "eventualBG": 57, 
+      "timestamp": "2016-01-16T06:08:22.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 100 Boluses: 3.65 Target: 115 Deviation: -1 BGI: -7.47", 
+      "tick": -15
     }
   }
 }
