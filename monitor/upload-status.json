@@ -15,21 +15,21 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 97, 
+      "bg": 95, 
       "temp": "absolute", 
-      "snoozeBG": 225, 
-      "timestamp": "2016-01-16T22:27:28.000Z", 
-      "reason": "115 is in range. No temp required", 
-      "eventualBG": 115, 
-      "mealAssist": "On: Carbs: 65 Boluses: 3 Target: 100 Deviation: 18 BGI: -2.2", 
-      "tick": "+1"
+      "snoozeBG": 205, 
+      "timestamp": "2016-01-16T22:31:49.000Z", 
+      "reason": "Eventual BG -110<110, bolus snooze: eventual BG range -110-205", 
+      "eventualBG": -110, 
+      "mealAssist": "Off: Carbs: 65 Boluses: 3 Target: 115 Deviation: 11 BGI: -2.56", 
+      "tick": -2
     }, 
     "iob": {
-      "timestamp": "2016-01-16T22:27:27.000Z", 
-      "bolussnooze": 2.425, 
-      "basaliob": -0.429, 
-      "iob": 2.414, 
-      "activity": 0.0049
+      "timestamp": "2016-01-16T22:31:49.000Z", 
+      "bolussnooze": 2.33, 
+      "basaliob": -0.416, 
+      "iob": 2.402, 
+      "activity": 0.0057
     }, 
     "enacted": {
       "bg": 86, 
