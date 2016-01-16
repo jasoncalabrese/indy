@@ -6,12 +6,12 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-16T16:38:43.000Z", 
+      "timestamp": "2016-01-16T16:43:51.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 60.975, 
-    "clock": "2016-01-16T08:37:36-08:00"
+    "reservoir": 60.9, 
+    "clock": "2016-01-16T08:42:35-08:00"
   }, 
   "openaps": {
     "suggested": {
@@ -34,17 +34,17 @@
       "activity": -0.0028
     }, 
     "enacted": {
-      "bg": 104, 
+      "bg": 106, 
       "temp": "absolute", 
-      "snoozeBG": 131, 
+      "snoozeBG": 129, 
       "recieved": true, 
-      "reason": "Eventual BG 131>110 but Delta +0 < Exp. Delta 0.6; cancel", 
-      "rate": 0, 
-      "eventualBG": 131, 
-      "timestamp": "2016-01-16T16:37:13.000Z", 
-      "duration": 0, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 4 BGI: 1.08", 
-      "tick": "+0"
+      "reason": "Eventual BG 129>=120, no temp, setting 0.861U/hr", 
+      "rate": 0.85, 
+      "eventualBG": 129, 
+      "timestamp": "2016-01-16T16:42:15.000Z", 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 1 BGI: 1.26", 
+      "tick": "+2"
     }
   }
 }
