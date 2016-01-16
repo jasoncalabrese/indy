@@ -6,43 +6,45 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-01-16T15:02:35.000Z", 
+      "timestamp": "2016-01-16T15:08:40.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 61.55, 
-    "clock": "2016-01-16T07:01:36-08:00"
+    "reservoir": 61.475, 
+    "clock": "2016-01-16T07:07:36-08:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 115, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 127, 
-      "timestamp": "2016-01-16T15:01:31.000Z", 
-      "reason": "Eventual BG 127>=120, temp 0.85 >~ req 0.817U/hr", 
-      "eventualBG": 127, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 5 BGI: 1.35", 
+      "snoozeBG": 136, 
+      "timestamp": "2016-01-16T15:06:59.000Z", 
+      "rate": 1, 
+      "reason": "Eventual BG 136>=120, temp 0.85<1.017U/hr", 
+      "eventualBG": 136, 
+      "duration": 30, 
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 10 BGI: 1.26", 
       "tick": "+5"
     }, 
     "iob": {
-      "timestamp": "2016-01-16T15:01:31.000Z", 
+      "timestamp": "2016-01-16T15:06:58.000Z", 
       "bolussnooze": 0, 
-      "basaliob": -0.082, 
-      "iob": -0.082, 
-      "activity": -0.003
+      "basaliob": -0.071, 
+      "iob": -0.071, 
+      "activity": -0.0028
     }, 
     "enacted": {
-      "bg": 110, 
+      "bg": 120, 
       "temp": "absolute", 
-      "snoozeBG": 128, 
+      "snoozeBG": 136, 
       "recieved": true, 
-      "reason": "Eventual BG 128>=120, no temp, setting 0.839U/hr", 
-      "rate": 0.85, 
-      "eventualBG": 128, 
-      "timestamp": "2016-01-16T14:57:06.000Z", 
+      "reason": "Eventual BG 136>=120, temp 0.85<1.017U/hr", 
+      "rate": 1, 
+      "eventualBG": 136, 
+      "timestamp": "2016-01-16T15:07:17.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 4 BGI: 1.39", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: 0 Boluses: 0 Target: 115 Deviation: 10 BGI: 1.26", 
+      "tick": "+5"
     }
   }
 }
