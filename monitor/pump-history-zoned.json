@@ -1,5 +1,79 @@
 [
   {
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-01-15T23:51:44 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-01-15T23:51:44-08:00", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[26], body[0] op[0x5c]", 
+        "_body": "", 
+        "_head": "5c1a0a21c00e2bc01899c06ef3c00c07d00c25d00c93d012bbd0", 
+        "data": [
+          {
+            "amount": 0.25, 
+            "age": 33
+          }, 
+          {
+            "amount": 0.35, 
+            "age": 43
+          }, 
+          {
+            "amount": 0.6, 
+            "age": 153
+          }, 
+          {
+            "amount": 2.75, 
+            "age": 243
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 263
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 293
+          }, 
+          {
+            "amount": 0.3, 
+            "age": 403
+          }, 
+          {
+            "amount": 0.45, 
+            "age": 443
+          }
+        ], 
+        "_date": ""
+      }
+    ], 
+    "programmed": 0.6, 
+    "duration": 0, 
+    "amount": 0.6, 
+    "unabsorbed": 0.6, 
+    "_head": "0100180018001800", 
+    "type": "normal", 
+    "_date": "2c73370f10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-01-15T23:51:44 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-01-15T23:51:44-08:00", 
+    "_body": "0a5000a05a6e000018000000001878", 
+    "carb_input": 10, 
+    "bg_target_high": 120, 
+    "sensitivity": 90, 
+    "carb_ratio": 16.0, 
+    "food_estimate": 0.6, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 110, 
+    "_head": "5b00", 
+    "bolus_estimate": 0.6, 
+    "_date": "2c73170f10"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-01-15T23:46:21 head[2], body[0] op[0x16]", 
     "timestamp": "2016-01-15T23:46:21-08:00", 
