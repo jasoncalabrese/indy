@@ -1,5 +1,34 @@
 [
   {
+    "_type": "Sara6E", 
+    "_description": "Sara6E 2016-01-16T00:00:00 head[1], body[49] op[0x6e]", 
+    "timestamp": "2016-01-16T00:00:00", 
+    "_body": "0500ab64c706000003c402083601bc2e008600be002a000000d40302000b000000000000000000c6c60000000000000000", 
+    "valid_date": "2016-01-15", 
+    "_head": "6e", 
+    "_date": "0f90"
+  }, 
+  {
+    "_type": "ResultDailyTotal", 
+    "_description": "ResultDailyTotal 2016-01-16T00:00:00 head[5], body[3] op[0x07]", 
+    "timestamp": "2016-01-16T00:00:00", 
+    "_body": "000000", 
+    "valid_date": "2016-01-15", 
+    "_head": "07000003c4", 
+    "_date": "0f90"
+  }, 
+  {
+    "_type": "BasalProfileStart", 
+    "offset": 0, 
+    "_description": "BasalProfileStart 2016-01-16T00:00:00 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-01-16T00:00:00", 
+    "_body": "001000", 
+    "profile_index": 0, 
+    "_head": "7b00", 
+    "rate": 0.4, 
+    "_date": "0040001010"
+  }, 
+  {
     "_type": "BasalProfileStart", 
     "offset": 70200000, 
     "_description": "BasalProfileStart 2016-01-15T23:56:39 head[2], body[3] op[0x7b]", 
