@@ -1,78 +1,17 @@
 {
-  "_id": "5699fef507f60885b344310e",
-  "ratio": "16",
-  "bg": "241",
-  "glucose": 241,
-  "glucoseType": "BolusWizard",
-  "wizard": {
-    "_type": "BolusWizard",
-    "bg": 241,
-    "_description": "BolusWizard 2016-01-16T00:26:12 head[2], body[15] op[0x5b]",
-    "timestamp": "2016-01-16T00:26:12-08:00",
-    "_body": "005000a05a6e340000000024001078",
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus",
-        "_description": "UnabsorbedInsulinBolus unknown head[29], body[0] op[0x5c]",
-        "_body": "",
-        "_head": "5c1d1826c00a44c00e4ec018bcc06e16d00c2ad00c48d00cb6d012ded0",
-        "data": [
-          {
-            "amount": 0.6,
-            "age": 38
-          },
-          {
-            "amount": 0.25,
-            "age": 68
-          },
-          {
-            "amount": 0.35,
-            "age": 78
-          },
-          {
-            "amount": 0.6,
-            "age": 188
-          },
-          {
-            "amount": 2.75,
-            "age": 278
-          },
-          {
-            "amount": 0.3,
-            "age": 298
-          },
-          {
-            "amount": 0.3,
-            "age": 328
-          },
-          {
-            "amount": 0.3,
-            "age": 438
-          },
-          {
-            "amount": 0.45,
-            "age": 478
-          }
-        ],
-        "_date": ""
-      }
-    ],
-    "bg_target_high": 120,
-    "sensitivity": 90,
-    "carb_input": 0,
-    "carb_ratio": 16,
-    "food_estimate": 0,
-    "unabsorbed_insulin_total": 0.9,
-    "correction_estimate": 1.3,
-    "bg_target_low": 110,
-    "_head": "5bf1",
-    "bolus_estimate": 0.4,
-    "_date": "0c5a001010"
-  },
-  "timestamp": "2016-01-16T00:26:12-08:00",
-  "created_at": "2016-01-16T00:26:12-08:00",
+  "_id": "5699fef507f60885b344310c",
+  "_type": "CalBGForPH",
+  "_description": "CalBGForPH 2016-01-16T00:25:41 head[2], body[0] op[0x0a]",
+  "timestamp": "2016-01-16T00:25:41-08:00",
+  "_body": "",
+  "_head": "0af1",
+  "amount": 241,
+  "_date": "2959207010",
   "eventType": "<none>",
-  "notes": "Food estimate 0\nCorrection estimate 1.3\nBolus estimate 0.4\nTarget low 110\nTarget high 120\nHypothetical glucose delta 0\nGlucose was: 241",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/<none>",
+  "glucose": 241,
+  "glucoseType": "Finger",
+  "notes": "Pump received finger stick.",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
+  "created_at": "2016-01-16T00:25:41-08:00",
   "enteredBy": "openaps://medtronic/723"
 }
